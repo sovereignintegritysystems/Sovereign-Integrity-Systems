@@ -35,18 +35,30 @@ Those states become current only after actual provider or documentary readback e
 
 **Christopher G.O. Gust** — Founder and technical lead; currently carrying executive and technical leadership functions pending incorporation and future lawful delegation. Canadian citizen, Métis Nation—Saskatchewan citizen and journeyman ironworker. His practical trades background informs an engineering posture that gives unusual weight to field constraints, physical installation and inspection, maintainability, failure modes and evidence that remains reconstructable outside a laboratory or cloud environment.
 
-**Anna Dostal** — First non-founder operating collaborator. Current work includes institutional learning, R&D opportunity contribution and progressive development across business, finance and operations. This is an operating-role description only; it does not imply legal partnership, officer/director status, signing authority, issued equity or fiduciary authority.
+**Anna Dostal** — First non-founder operating collaborator and a material source of support and inspiration during SIS's foundational establishment period. Current work includes institutional learning, R&D opportunity contribution and progressive development across business, finance and operations. This is an operating-role description only; it does not imply legal partnership, officer/director status, signing authority, issued equity or fiduciary authority.
 
-Personal biography beyond what is relevant to the operating role is not automatically public merely because it could add institutional narrative value.
+Personal biography beyond what is relevant to the operating role is not automatically public merely because it could add institutional narrative value. Anna's migration/refugee, citizenship, age-at-migration and residence history remain consent-gated third-party biography.
+
+## Founding purpose: Canadian capability and Métis/Indigenous self-actualization
+
+SIS is being built as a **Métis-founded, founder-controlled, Saskatchewan-rooted Canadian institution**. Its sovereignty objective is practical rather than rhetorical: increase Canada's capacity to originate, understand, operate, verify, repair and evolve consequential capabilities from first-party knowledge and source without making a foreign vendor, cloud, repository, proprietary platform or external provider the source of authority for core capability.
+
+This is not technological isolationism. International science, standards, suppliers, collaborators and open research remain compatible with the SIS model. The distinction is **cooperation versus dependency**. External systems may extend capability; critical first-party knowledge, semantic authority, evidence, reconstruction paths and core implementation should remain governable and recoverable in Canada.
+
+A second founding objective is to expand **first-class Métis and broader Indigenous participation** in domains where Indigenous people have often had limited ownership or decision authority. SIS intends that participation to include technical architecture, science and R&D, engineering, intellectual-property custody, finance, capital formation, ownership, executive authority and institutional governance—not only downstream employment, procurement pass-through or symbolic inclusion.
+
+The founder's Métis heritage, including its personal cultural and spiritual significance, informs commitments to self-determination, continuity, resilience, reciprocal responsibility and durable Canadian institution-building. This is a statement about Christopher's personal heritage and SIS's chosen principles. SIS does not define Métis spirituality, culture, law or governance and does not claim authority to speak for Métis Nation—Saskatchewan or any other Indigenous government, Nation, community or organization.
+
+At the present pre-incorporation stage SIS is founder-controlled. The intended corporate design is to preserve Indigenous majority control if implemented. That fact may become relevant to Indigenous-business programs, but SIS does **not** claim Indigenous Business Directory registration, Indigenous procurement qualification, certification, set-aside eligibility or Nation/community endorsement without separate external verification.
 
 ## Indigenous and Canadian institutional boundary
 
-SIS is being developed as a Canadian, Saskatchewan-rooted institution. Christopher's Métis Nation—Saskatchewan citizenship is a factual personal identity statement and may be relevant to founder identity, Indigenous-business eligibility and the company's Canadian/Saskatchewan orientation.
+Christopher's Métis Nation—Saskatchewan citizenship is a factual personal identity statement and is relevant to founder identity, institutional purpose, potential Indigenous-business eligibility and the company's Canadian/Saskatchewan orientation.
 
 It does **not** imply that SIS:
 
 - speaks for or is endorsed by Métis Nation—Saskatchewan or another Indigenous government, Nation, community or organization;
-- has authority to define Indigenous law, governance or cultural protocol;
+- has authority to define Indigenous law, governance, spirituality or cultural protocol;
 - owns community knowledge, cultural material, data or intellectual property;
 - has received consent, mandate, procurement qualification or partnership merely from the founder's citizenship.
 
@@ -112,7 +124,9 @@ This structure preserves institutional credibility while reducing unnecessary lo
 
 SIS's current externalization strategy prefers Saskatchewan research, prototyping and validation resources where they can answer the scientific question credibly, then escalates to interprovincial or national facilities where the required capability, calibration, independence or evidence ceiling cannot be reached locally.
 
-The company is intended to retain its high-assurance intellectual-property and institutional base in Canada while building research, government, industrial and community relationships appropriate to each program. This is an operating objective, not a representation that any particular tax, procurement, grant, security or Indigenous-business qualification has already been obtained.
+The institution is intended to retain its high-assurance intellectual-property, first-party technical capability and institutional base in Canada while building research, government, industrial, Indigenous/community and international relationships appropriate to each program. The objective is not to reject foreign collaboration; it is to avoid surrendering the ability to understand, operate, reconstruct and govern core SIS capability to foreign-controlled source or provider semantics.
+
+This is an operating objective, not a representation that any particular tax, procurement, grant, security or Indigenous-business qualification has already been obtained.
 
 ## Historical domain
 
