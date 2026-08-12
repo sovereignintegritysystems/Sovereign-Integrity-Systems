@@ -13,6 +13,25 @@ Current public maturity state:
 
 **Sovereign Engines** is the principal technology/platform family. **Sovereign R&D** and **Sovereign Engineering** are the internal research and engineering institutions used to organize work and preserve evidence/currentness boundaries.
 
+## Current public contact and infrastructure state
+
+Current public web projection: **https://sovereign-integrity-systems.vercel.app**. Its source is the PUBLIC_SAFE website artifact in `sovereignintegritysystems/Sovereign-Integrity-Systems`. Vercel is a publication provider with authority `NONE`; provider state does not create company, legal, research, engineering or evidence authority.
+
+Current contact bindings:
+
+- **Christopher G.O. Gust** — `cgust.dev@gmail.com` — `474-349-1394`;
+- **Anna Dostal** — `dostalanna@gmail.com` — `306-526-3060`.
+
+These are current replaceable contact bindings rather than permanent institutional identities.
+
+SIS does **not** presently represent the following as established:
+
+- a dedicated SIS domain;
+- SIS-domain email identities;
+- a business number, GST account or tax account.
+
+A new domain, individual SIS institutional email identities and appropriate business-number/tax registrations are planned when resources and registration needs permit. Future provisioning must be represented as current only after provider or documentary readback establishes it.
+
 ## Leadership and collaboration
 
 **Christopher G.O. Gust** — Founder; currently performing the President, Chairman, CEO and CTO functions pending future lawful delegation. Canadian citizen, Métis Nation—Saskatchewan citizen and journeyman ironworker. His practical trades background informs an engineering posture that gives unusual weight to field constraints, physical installation and inspection, maintainability, failure modes, and evidence that remains reconstructable outside a laboratory or cloud environment.
@@ -70,7 +89,7 @@ The company is intended to retain its high-assurance intellectual-property and i
 
 ## Historical domain
 
-`accompli-sure.com` is a historical domain associated with earlier work. It is not presently the authoritative public SIS profile and should not be treated as the current statement of SIS technical or institutional claims. This repository is the current public GitHub front door until the historical site is reconciled or a dedicated SIS web property supersedes it.
+`accompli-sure.com` is a historical domain associated with earlier work. It is not the authoritative public SIS profile. The current public web projection is `https://sovereign-integrity-systems.vercel.app`, while this repository remains the current PUBLIC_SAFE source/front door until a dedicated SIS web domain is registered and admitted.
 
 ## Public disclosure rule
 
