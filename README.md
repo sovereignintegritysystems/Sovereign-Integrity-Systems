@@ -27,6 +27,18 @@ Current public-safe work includes high-assurance Rust systems; cryptography and 
 
 See [`INSTITUTIONAL_PROFILE.md`](INSTITUTIONAL_PROFILE.md) for the current public company profile and [`RESEARCH_AND_ENGINEERING.md`](RESEARCH_AND_ENGINEERING.md) for the bounded research and engineering surface.
 
+## Founding purpose and sovereignty
+
+SIS is being built as a **Métis-founded, founder-controlled, Saskatchewan-rooted Canadian institution**. Its sovereignty objective is practical: increase Canada's capacity to originate, understand, operate, verify, repair and evolve consequential capabilities from first-party knowledge and source without making a foreign vendor, cloud, repository or proprietary platform the source of authority for core capability.
+
+That objective is not technological isolationism. International science, standards, suppliers and collaboration remain valuable. SIS distinguishes **cooperation from dependency**: external systems may extend capability, while critical first-party knowledge, control, evidence and reconstruction paths should remain governable and recoverable in Canada.
+
+A second founding objective is to increase **first-class Métis and broader Indigenous participation** in technical architecture, science and R&D, engineering, intellectual-property custody, finance, ownership and institutional decision-making—not merely downstream employment or symbolic inclusion.
+
+Christopher's Métis Nation—Saskatchewan citizenship and current founder control are factual institutional context. They do **not** establish Métis Nation—Saskatchewan endorsement, authority to speak for an Indigenous government or community, Indigenous Business Directory registration, procurement qualification, certification or ownership of community knowledge. Those are separate evidence-bearing states.
+
+The founder's Métis heritage, including its personal cultural and spiritual significance, is part of SIS's institutional inspiration toward self-determination, continuity, resilience and durable Canadian capability. SIS does not claim authority to define Métis spirituality, culture, law or governance.
+
 ## Current institutional activity
 
 In July 2026, SIS submitted **two proposals** to the Department of National Defence IDEaS Competitive Projects CFP006 program. Submission is not an award, contract, endorsement or receivable.
@@ -39,7 +51,7 @@ Internal program names, unpublished proposal mechanisms, detailed claim combinat
 
 **Christopher G.O. Gust** is the founder and technical lead and currently carries executive and technical leadership functions pending incorporation and future lawful delegation. He is a Canadian citizen, a Métis Nation—Saskatchewan citizen and a journeyman ironworker. His trades background informs SIS's emphasis on physical infrastructure, field constraints, inspectability, maintainability and evidence that survives real operating environments.
 
-**Anna Dostal** is SIS's first non-founder operating collaborator. Her current scope includes institutional learning, R&D opportunity contribution and progressive business, finance and operations development. This is an operating-role description only; it does not imply legal partnership, officer/director status, signing authority, issued equity or fiduciary authority.
+**Anna Dostal** is SIS's first non-founder operating collaborator and a material source of support and inspiration during the institution's foundational establishment period. Her current scope includes institutional learning, R&D opportunity contribution and progressive business, finance and operations development. This is an operating-role description only; it does not imply legal partnership, officer/director status, signing authority, issued equity or fiduciary authority.
 
 Christopher's Métis Nation—Saskatchewan citizenship is a factual personal identity statement. It does **not** imply that SIS speaks for, is endorsed by, has authority from, or owns the laws, protocols, knowledge or intellectual property of Métis Nation—Saskatchewan or any other Indigenous government, Nation, community or organization. Any such relationship or authority requires its own explicit evidence and consent.
 
