@@ -36,7 +36,7 @@ For active site delivery, R3 is transformed only for transfer efficiency:
 - Transformation: LANCZOS resize to 512 px width, aspect preserved, indexed 256-colour FASTOCTREE quantization, no dithering
 - Render-safe carrier: `assets/brand/sis-canonical-mark-web-r3.svg`
 
-The SVG carrier does not redraw the logo. It contains the registered R3 raster derivative as an embedded PNG and gives browsers a conventional same-origin `<img src>` target. The website uses ordinary `<img>` elements for header, hero and footer rendering.
+The SVG carrier does not redraw the logo. It contains the registered R3 raster derivative as an embedded PNG and gives browsers a conventional same-origin `<img src>` target. The website uses ordinary `<img>` elements for masthead, institutional profile and footer rendering.
 
 The earlier 256 × 256 web projection at `assets/brand/sis-canonical-mark-web.png` remains a valid historical/fallback derivative, SHA-256 `d5801cdd3fc2ef54827440032fe5a2d4d516ac85538c301194146c9767fec947`.
 
@@ -53,8 +53,11 @@ R3 therefore requires:
 3. provider readback of both the production HTML and the referenced asset;
 4. browser-visible contradiction to override backend success and reopen the defect.
 
-Current production revision marker: `sis-mark-r3-direct-img-svg-20260812`.
-Current Vercel production deployment: `dpl_Fk5yGkAPYQ8ha65th1pUBPHjjQk4` (`READY`, canonical alias attached, no alias error at readback).
+Current website source marker: `sis-mark-r3-institutional-profile-20260812`.
+
+Initial R3 direct-image production registration was observed at Vercel deployment `dpl_Fk5yGkAPYQ8ha65th1pUBPHjjQk4`. That deployment ID is preserved as historical registration evidence rather than a perpetual-current pointer. Exact live provider deployment/currentness is re-read from Vercel and tracked by the non-authoritative internal/provider-currentness surfaces.
+
+Institutional web presentation doctrine: `docs/brand/INSTITUTIONAL_WEB_IDENTITY.md`.
 
 ## Mark identity and use
 
