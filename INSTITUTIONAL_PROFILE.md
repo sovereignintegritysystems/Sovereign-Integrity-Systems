@@ -34,7 +34,7 @@ A new domain, individual SIS institutional email identities and appropriate busi
 
 ## Leadership and collaboration
 
-**Christopher G.O. Gust** — Founder; currently performing the President, Chairman, CEO and CTO functions pending future lawful delegation. Canadian citizen, Métis Nation—Saskatchewan citizen and journeyman ironworker. His practical trades background informs an engineering posture that gives unusual weight to field constraints, physical installation and inspection, maintainability, failure modes, and evidence that remains reconstructable outside a laboratory or cloud environment.
+**Christopher G.O. Gust** — Founder and technical lead; currently carrying executive and technical leadership functions pending incorporation and future lawful delegation. Canadian citizen, Métis Nation—Saskatchewan citizen and journeyman ironworker. His practical trades background informs an engineering posture that gives unusual weight to field constraints, physical installation and inspection, maintainability, failure modes, and evidence that remains reconstructable outside a laboratory or cloud environment.
 
 **Anna Dostal** — First non-founder operating collaborator. Current work includes institutional learning, R&D opportunity contribution and progressive development across business, finance and operations. This is an operating-role description only; it does not imply legal partnership, officer/director status, signing authority, issued equity or fiduciary authority.
 
