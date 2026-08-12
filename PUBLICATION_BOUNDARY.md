@@ -75,10 +75,18 @@ The normal promotion path is:
 
 No automatic private-to-public synchronization is authorized by default.
 
-## 7. Demotion and correction
+## 7. GitHub Actions exclusion
+
+GitHub Actions is outside the current SIS architecture. Publication does not require or consume GitHub-hosted workflows, checks, runs, logs, artifacts, runners, billing state, quotas, or conclusions. None of those states may satisfy or block publication, review, evidence, currentness, release, or claim status.
+
+SIS currently has no consistent GitHub Actions billing relationship and will not create an architectural dependency on it before outside funding is available. Outside funding does not automatically re-admit GitHub Actions; a future use would require an explicit owner decision and fresh provider-independence review.
+
+Historical provider automation records are provenance only. GitHub source hosting remains separate from GitHub Actions.
+
+## 8. Demotion and correction
 
 If public material becomes stale, overbroad, unsafe, superseded, or inconsistent with a stronger source, correct or withdraw it promptly. Historical public artifacts may be retained where useful, but must be clearly marked as historical/superseded when current interpretation could otherwise be misleading.
 
-## 8. Boundary owners
+## 9. Boundary owners
 
 The public repository does not own the underlying facts. Company-truth, technical, research, engineering, legal, financial, evidence, and provider states remain owned by their exact governed sources. This repository owns only the public GitHub publication projection and its publication-state currentness.
