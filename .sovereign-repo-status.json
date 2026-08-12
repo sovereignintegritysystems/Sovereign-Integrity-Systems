@@ -10,7 +10,8 @@
   "source_authorities": {
     "company_truth": "Sovereign Integrity Systems Executive Institutional Operating System / Operating Register",
     "technical_truth": "exact Sovereign Engines/R&D/Engineering semantic owners",
-    "publication_boundary": "PUBLICATION_BOUNDARY.md"
+    "publication_boundary": "PUBLICATION_BOUNDARY.md",
+    "github_actions_exclusion": "sovereignintegritysystems/sovereign-engines:control-plane/github_actions_exclusion.v1.json"
   },
   "allowed_release_class": "PUBLIC_SAFE",
   "default_release_policy": "DENY_UNLESS_EXPLICITLY_PUBLIC_SAFE",
@@ -18,11 +19,18 @@
     "public_repository_presence_does_not_create_company_truth_authority",
     "publication_does_not_upgrade_evidence_or_certification_state",
     "account_ownership_does_not_establish_provenance_for_other_repositories",
-    "public_content_does_not_imply_patent_filing_or_patent_pending"
+    "public_content_does_not_imply_patent_filing_or_patent_pending",
+    "github_actions_state_does_not_create_or_block_publication_evidence_currentness_or_release"
   ],
   "private_to_public_sync": "NO_AUTOMATIC_SYNC",
+  "github_actions": {
+    "state": "EXCLUDED_NONCANONICAL_NOT_PART_OF_SIS_SYSTEM",
+    "required": false,
+    "status_consumed": false,
+    "outside_funding_auto_readmits": false
+  },
   "current_patent_filing_state": "NONE",
-  "currentness_cutoff": "2026-08-12T08:13:00-06:00",
+  "currentness_cutoff": "2026-08-12T09:12:00-06:00",
   "supersedes_as_publication_carrier": "sovereignintegritysystems/sovereign-engines:docs/PUBLIC_GITHUB_PROFILE_README.md",
   "claim_ceiling": "PUBLICATION_PROJECTION_ONLY"
 }
