@@ -42,6 +42,14 @@ Public material is promoted here only after source/currentness review, disclosur
 
 The machine-readable role declaration is in [`.sovereign-repo-status.json`](.sovereign-repo-status.json).
 
+## Provider automation boundary
+
+GitHub Actions is **not part of the SIS architecture** and is not used as a publication, validation, evidence, currentness, admission, release, or canonicality mechanism for this repository. Workflow/run/check/log/artifact/runner/billing/quota state has no standing meaning for public SIS claims or publication state.
+
+SIS currently has no consistent GitHub Actions billing relationship and does not plan to create a dependency on it before outside funding is available. Funding alone would not re-admit GitHub Actions; any future use would require an explicit new owner decision and provider-independence review.
+
+GitHub source hosting and the GitHub Actions service are separate capabilities. This public repository may continue to use GitHub as a publication host without GitHub Actions being part of the system.
+
 ## Assurance posture
 
 SIS develops toward demanding assurance and regulated-system contexts, including Common Criteria, DO-178C/DO-333, ISO 26262, IEC 61508, Canadian government security profiles, and NIST post-quantum standards.
