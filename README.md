@@ -12,7 +12,7 @@ Current public web projection: **https://sovereign-integrity-systems.vercel.app*
 ## Current public contacts and institutional provisioning
 
 **Christopher G.O. Gust**  
-Founder; currently performing the President, Chairman, CEO and CTO functions pending future lawful delegation.  
+Founder and technical lead; currently carrying executive and technical leadership functions pending incorporation and future lawful delegation.  
 Email: `cgust.dev@gmail.com`  
 Phone: `474-349-1394`
 
@@ -41,7 +41,7 @@ Current Saskatchewan opportunity development also includes the **Made In Saskatc
 
 ## People and Saskatchewan roots
 
-**Christopher G.O. Gust** is the founder and currently carries the President, Chairman, CEO and CTO functions pending future lawful delegation. He is a Canadian citizen, a Métis Nation—Saskatchewan citizen and a journeyman ironworker. His trades background materially informs SIS's interest in physical infrastructure, field constraints, inspectability and evidence that survives contact with real operating environments.
+**Christopher G.O. Gust** is the founder and technical lead and currently carries executive and technical leadership functions pending incorporation and future lawful delegation. He is a Canadian citizen, a Métis Nation—Saskatchewan citizen and a journeyman ironworker. His trades background materially informs SIS's interest in physical infrastructure, field constraints, inspectability and evidence that survives contact with real operating environments.
 
 **Anna Dostal** is SIS's first non-founder operating collaborator. Her current scope includes institutional learning, R&D opportunity contribution and progressive business, finance and operations development. This public description does not imply legal partnership, officer/director status, signing authority, issued equity or fiduciary authority.
 
