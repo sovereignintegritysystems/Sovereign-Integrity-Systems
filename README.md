@@ -7,6 +7,22 @@ This repository is the canonical **public GitHub front door and publication proj
 
 SIS is a **pre-revenue, pre-incorporation Saskatchewan research and engineering venture** preparing to incorporate in Saskatchewan. Its practical operating and research footprint is centred in Regina and Yorkton. This maturity statement is intentional: proposals, research activity, source code and external discussions are not presented as revenue, awards, contracts, certification or independent validation.
 
+Current public web projection: **https://sovereign-integrity-systems.vercel.app**. The site is sourced from this repository and is a provider publication projection with authority `NONE`; company/legal/contact truth remains governed by the current internal company-state records.
+
+## Current public contacts and institutional provisioning
+
+**Christopher G.O. Gust**  
+Founder; currently performing the President, Chairman, CEO and CTO functions pending future lawful delegation.  
+Email: `cgust.dev@gmail.com`  
+Phone: `474-349-1394`
+
+**Anna Dostal**  
+First non-founder operating collaborator.  
+Email: `dostalanna@gmail.com`  
+Phone: `306-526-3060`
+
+The Gmail addresses and telephone numbers above are current replaceable contact bindings, not permanent institutional identities. SIS does **not** presently represent a dedicated SIS domain, SIS-domain email identities, or a business number/GST/tax account as registered or provisioned. A new domain, individual SIS institutional email identities and appropriate business-number/tax registrations are planned when resources and registration needs permit.
+
 ## Company and platform
 
 Sovereign Integrity Systems develops evidence-governed, sovereignty-oriented digital infrastructure for environments where correctness, continuity, security, provenance, bounded claims and operational authority matter.
@@ -67,6 +83,8 @@ GitHub Actions is **not part of the SIS architecture** and is not used as a publ
 
 GitHub source hosting and the GitHub Actions service are separate capabilities. This public repository may continue to use GitHub as a publication host without GitHub Actions being part of the system.
 
+The current Vercel site is likewise a provider projection, not a semantic authority. Hosting-plan, billing, availability or provider state cannot strengthen any SIS claim.
+
 ## Assurance posture
 
 SIS develops toward demanding assurance and regulated-system contexts, including Common Criteria, DO-178C/DO-333, ISO 26262, IEC 61508, Canadian government security profiles, and NIST post-quantum standards.
@@ -79,7 +97,7 @@ No patent applications have been filed. Internal invention and provisional-draft
 
 ## Historical web identity
 
-`accompli-sure.com` is a historical domain associated with earlier work. It is **not** the current authoritative public SIS profile. Until that site is fully reconciled with the present SIS identity and PUBLIC_SAFE claim boundary, this repository is the preferred public institutional reference.
+`accompli-sure.com` is a historical domain associated with earlier work. It is **not** the current authoritative public SIS profile. The current web projection is `https://sovereign-integrity-systems.vercel.app`, with this repository remaining the public-safe source/publication front door until a dedicated SIS domain supersedes the provider URL.
 
 ---
 
