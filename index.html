@@ -1,198 +1,32 @@
 <!doctype html>
 <html lang="en-CA">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Sovereign Integrity Systems — High-Assurance Digital Infrastructure</title>
-  <meta name="description" content="Sovereign Integrity Systems is a Métis-founded, Saskatchewan-rooted Canadian research and engineering venture developing evidence-governed, high-assurance digital infrastructure and physical/digital research systems.">
-  <meta name="robots" content="index,follow">
-  <meta property="og:title" content="Sovereign Integrity Systems">
-  <meta property="og:description" content="High-Assurance Digital Infrastructure — Canadian first-party capability, research, engineering, assurance, scientific measurement, cryptography, provenance and resilient systems.">
-  <meta property="og:type" content="website">
-  <meta property="og:image" content="https://sovereign-integrity-systems.vercel.app/assets/brand/sis-canonical-mark-web.png">
-  <link rel="icon" type="image/png" href="assets/brand/sis-canonical-mark-web.png">
-  <meta name="theme-color" content="#0b1014">
-  <style>
-    :root {
-      color-scheme: dark;
-      --bg:#0b1014;
-      --bg2:#10171c;
-      --ink:#edf1f2;
-      --soft:#c9d1d4;
-      --muted:#929fa5;
-      --line:#2b363c;
-      --teal:#428f94;
-      --graphite:#343d45;
-      --max:1160px;
-    }
-    * { box-sizing:border-box; }
-    html { scroll-behavior:smooth; }
-    body { margin:0; background:var(--bg); color:var(--ink); font:16px/1.68 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; text-rendering:optimizeLegibility; }
-    a { color:inherit; text-underline-offset:.22em; text-decoration-thickness:1px; }
-    a:hover { color:#fff; }
-    .wrap { width:min(var(--max), calc(100% - 48px)); margin:0 auto; }
-    header { border-bottom:1px solid var(--line); }
-    .header-inner { min-height:106px; display:flex; align-items:center; justify-content:space-between; gap:32px; }
-    .brand { display:flex; align-items:center; gap:17px; text-decoration:none; }
-    .brand img { width:58px; height:58px; object-fit:contain; flex:0 0 auto; }
-    .brand-name { display:block; font-size:.98rem; font-weight:690; letter-spacing:.025em; }
-    .brand-sub { display:block; margin-top:2px; color:var(--muted); font-size:.78rem; letter-spacing:.035em; }
-    nav { display:flex; gap:22px; flex-wrap:wrap; font-size:.79rem; letter-spacing:.035em; }
-    nav a { color:var(--muted); text-decoration:none; }
-    .hero { display:grid; grid-template-columns:minmax(0,1fr) 260px; align-items:center; gap:72px; min-height:540px; padding:76px 0 82px; }
-    .eyebrow { color:var(--teal); font-size:.75rem; font-weight:720; letter-spacing:.18em; text-transform:uppercase; }
-    h1 { max-width:820px; margin:18px 0 22px; font-size:clamp(2.7rem,5.6vw,4.8rem); line-height:1.01; letter-spacing:-.04em; font-weight:620; }
-    .lead { max-width:770px; margin:0; color:var(--soft); font-size:clamp(1.08rem,1.9vw,1.34rem); line-height:1.62; }
-    .hero-meta { margin-top:32px; padding-top:18px; border-top:1px solid var(--line); display:flex; gap:22px; flex-wrap:wrap; color:var(--muted); font-size:.83rem; }
-    .hero-mark { display:flex; align-items:center; justify-content:center; min-height:300px; border-left:1px solid var(--line); }
-    .hero-mark img { width:min(220px,100%); height:auto; object-fit:contain; }
-    section { border-top:1px solid var(--line); padding:58px 0 62px; }
-    .section-grid { display:grid; grid-template-columns:220px minmax(0,1fr); gap:64px; }
-    .section-title { margin:0; color:var(--muted); font-size:.76rem; font-weight:720; letter-spacing:.16em; text-transform:uppercase; }
-    .section-body { max-width:820px; }
-    h2 { margin:0 0 17px; font-size:1.65rem; line-height:1.25; letter-spacing:-.015em; font-weight:620; }
-    h3 { margin:0 0 5px; font-size:1rem; font-weight:690; }
-    p { margin:0 0 18px; }
-    .muted { color:var(--muted); }
-    .status-line { margin-top:28px; padding:18px 20px; border:1px solid var(--line); background:rgba(255,255,255,.012); color:var(--soft); font-size:.9rem; }
-    .principle { margin:26px 0 0; padding-left:20px; border-left:2px solid var(--teal); color:var(--soft); }
-    .scope { margin-top:28px; border-top:1px solid var(--line); }
-    .scope-row { display:grid; grid-template-columns:52px 190px minmax(0,1fr); gap:18px; padding:20px 0; border-bottom:1px solid var(--line); }
-    .scope-no { color:var(--teal); font-size:.76rem; letter-spacing:.12em; }
-    .scope-row p { margin:0; color:var(--muted); }
-    .people { display:grid; grid-template-columns:1fr 1fr; gap:36px; margin-top:24px; }
-    .person { border-top:2px solid var(--graphite); padding-top:17px; }
-    .person-role { color:var(--teal); font-size:.78rem; letter-spacing:.08em; text-transform:uppercase; }
-    .person p { margin-top:10px; color:var(--soft); }
-    .contact-line { display:flex; gap:26px; flex-wrap:wrap; margin-top:22px; }
-    footer { border-top:1px solid var(--line); padding:28px 0 42px; color:var(--muted); font-size:.78rem; }
-    .footer-row { display:flex; align-items:center; justify-content:space-between; gap:24px; flex-wrap:wrap; }
-    .footer-brand { display:flex; align-items:center; gap:11px; }
-    .footer-brand img { width:32px; height:32px; object-fit:contain; }
-    .historical { max-width:620px; text-align:right; }
-    @media (max-width:820px) {
-      .wrap { width:min(var(--max), calc(100% - 32px)); }
-      .header-inner { min-height:90px; }
-      nav { display:none; }
-      .hero { grid-template-columns:1fr; min-height:auto; gap:30px; padding:58px 0 64px; }
-      .hero-mark { order:-1; justify-content:flex-start; min-height:auto; border-left:0; }
-      .hero-mark img { width:118px; }
-      .section-grid { grid-template-columns:1fr; gap:20px; }
-      .scope-row { grid-template-columns:42px 1fr; }
-      .scope-row p { grid-column:2; }
-      .people { grid-template-columns:1fr; }
-      .historical { text-align:left; }
-    }
-  </style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Sovereign Integrity Systems — High-Assurance Digital Infrastructure</title>
+<meta name="description" content="Sovereign Integrity Systems is a Métis-founded, Saskatchewan-rooted Canadian research and engineering venture developing evidence-governed, high-assurance digital infrastructure and physical/digital research systems.">
+<meta name="robots" content="index,follow">
+<meta property="og:title" content="Sovereign Integrity Systems">
+<meta property="og:description" content="High-Assurance Digital Infrastructure — Canadian first-party capability, research, engineering, assurance, scientific measurement, cryptography, provenance and resilient systems.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://sovereign-integrity-systems.vercel.app/assets/brand/sis-canonical-mark-web.png?v=d5801cdd">
+<link rel="icon" type="image/png" href="/assets/brand/sis-canonical-mark-web.png?v=d5801cdd">
+<meta name="theme-color" content="#0b1014">
+<style>
+:root{color-scheme:dark;--bg:#0b1014;--panel:#10171c;--ink:#edf1f2;--soft:#c9d1d4;--muted:#929fa5;--line:#2b363c;--teal:#428f94;--graphite:#343d45;--max:1160px;--brand-logo:url("data:image/png;base64,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")}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.68 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;text-rendering:optimizeLegibility}a{color:inherit;text-underline-offset:.22em;text-decoration-thickness:1px}.wrap{width:min(var(--max),calc(100% - 48px));margin:auto}header{border-bottom:1px solid var(--line)}.mast{min-height:104px;display:flex;align-items:center;justify-content:space-between;gap:34px}.brand{display:flex;align-items:center;gap:16px;text-decoration:none}.brand-mark,.hero-mark,.footer-mark{background-image:var(--brand-logo);background-repeat:no-repeat;background-position:center;background-size:contain}.brand-mark{width:62px;height:62px;flex:none}.brand-name{display:block;font-weight:700;letter-spacing:.025em}.brand-sub{display:block;color:var(--muted);font-size:.79rem;margin-top:2px}nav{display:flex;gap:22px;flex-wrap:wrap;font-size:.79rem;letter-spacing:.035em}nav a{color:var(--muted);text-decoration:none}.hero{display:grid;grid-template-columns:minmax(0,1fr) 320px;align-items:center;gap:78px;min-height:570px;padding:76px 0 82px}.eyebrow{color:var(--teal);font-size:.75rem;font-weight:750;letter-spacing:.18em;text-transform:uppercase}h1{max-width:820px;margin:18px 0 22px;font-size:clamp(2.75rem,5.5vw,4.7rem);line-height:1.02;letter-spacing:-.04em;font-weight:620}.lead{max-width:780px;color:var(--soft);font-size:clamp(1.08rem,1.8vw,1.32rem);line-height:1.62}.hero-meta{margin-top:32px;padding-top:18px;border-top:1px solid var(--line);display:flex;gap:22px;flex-wrap:wrap;color:var(--muted);font-size:.83rem}.hero-mark{width:290px;height:290px;border-left:1px solid var(--line);background-origin:content-box;padding-left:44px}section{border-top:1px solid var(--line);padding:58px 0 62px}.section-grid{display:grid;grid-template-columns:220px minmax(0,1fr);gap:64px}.section-title{margin:0;color:var(--muted);font-size:.76rem;font-weight:750;letter-spacing:.16em;text-transform:uppercase}.section-body{max-width:830px}h2{margin:0 0 17px;font-size:1.65rem;line-height:1.25;letter-spacing:-.015em;font-weight:620}h3{margin:0 0 5px;font-size:1rem}p{margin:0 0 18px}.muted{color:var(--muted)}.status{margin-top:28px;padding:18px 20px;border:1px solid var(--line);background:rgba(255,255,255,.012);color:var(--soft);font-size:.9rem}.principle{margin:26px 0 0;padding-left:20px;border-left:2px solid var(--teal);color:var(--soft)}.scope{margin-top:28px;border-top:1px solid var(--line)}.scope-row{display:grid;grid-template-columns:52px 190px minmax(0,1fr);gap:18px;padding:20px 0;border-bottom:1px solid var(--line)}.scope-no{color:var(--teal);font-size:.76rem;letter-spacing:.12em}.scope-row p{margin:0;color:var(--muted)}.people{display:grid;grid-template-columns:1fr 1fr;gap:36px;margin-top:24px}.person{border-top:2px solid var(--graphite);padding-top:17px}.person-role{color:var(--teal);font-size:.78rem;letter-spacing:.08em;text-transform:uppercase}.person p{margin-top:10px;color:var(--soft)}.contact-line{display:flex;gap:26px;flex-wrap:wrap;margin-top:22px}footer{border-top:1px solid var(--line);padding:28px 0 42px;color:var(--muted);font-size:.78rem}.footer-row{display:flex;align-items:center;justify-content:space-between;gap:24px;flex-wrap:wrap}.footer-brand{display:flex;align-items:center;gap:11px}.footer-mark{width:34px;height:34px}.historical{max-width:620px;text-align:right}@media(max-width:820px){.wrap{width:min(var(--max),calc(100% - 32px))}.mast{min-height:90px}nav{display:none}.hero{grid-template-columns:1fr;min-height:auto;gap:32px;padding:54px 0 62px}.hero-mark{order:-1;width:150px;height:150px;border-left:0;padding-left:0}.section-grid{grid-template-columns:1fr;gap:20px}.scope-row{grid-template-columns:42px 1fr}.scope-row p{grid-column:2}.people{grid-template-columns:1fr}.historical{text-align:left}}
+</style>
 </head>
-<body>
-  <header>
-    <div class="wrap header-inner">
-      <a class="brand" href="#top" aria-label="Sovereign Integrity Systems home">
-        <img src="assets/brand/sis-canonical-mark-web.png" alt="Sovereign Integrity Systems institutional mark">
-        <span><span class="brand-name">Sovereign Integrity Systems</span><span class="brand-sub">High-Assurance Digital Infrastructure</span></span>
-      </a>
-      <nav aria-label="Primary">
-        <a href="#institution">Institution</a><a href="#platform">Platform</a><a href="#research">Research</a><a href="#assurance">Assurance</a><a href="#people">People</a><a href="#contact">Contact</a>
-      </nav>
-    </div>
-  </header>
-
-  <main id="top">
-    <div class="wrap hero">
-      <div>
-        <div class="eyebrow">Métis-founded · Saskatchewan · Canada</div>
-        <h1>High-Assurance Digital Infrastructure</h1>
-        <p class="lead">Sovereign Integrity Systems develops evidence-governed digital infrastructure and research systems for consequential environments—where correctness, continuity, provenance, security, bounded authority and the ability to reconstruct what happened are material requirements.</p>
-        <div class="hero-meta"><span>Canadian first-party capability</span><span>Research &amp; engineering</span><span>Provider-independent authority</span></div>
-      </div>
-      <div class="hero-mark" aria-hidden="true"><img src="assets/brand/sis-canonical-mark-web.png" alt=""></div>
-    </div>
-
-    <section id="institution">
-      <div class="wrap section-grid">
-        <p class="section-title">Institution</p>
-        <div class="section-body">
-          <h2>Canadian capability, retained authority and durable institutional knowledge.</h2>
-          <p>SIS is being built as a <strong>Métis-founded, founder-controlled, Saskatchewan-rooted Canadian institution</strong>. Its sovereignty objective is practical: increase Canada's capacity to originate, understand, operate, verify, repair and evolve consequential capabilities from first-party knowledge and source without making a foreign vendor, cloud, repository or proprietary platform the source of authority for core capability.</p>
-          <p>International science and collaboration remain compatible with that objective. SIS distinguishes <strong>cooperation from dependency</strong>: external systems may extend capability, while critical first-party knowledge, control, evidence and reconstruction paths should remain governable and recoverable in Canada.</p>
-          <p>A second founding objective is to expand first-class Métis and broader Indigenous participation in technical architecture, science and R&amp;D, engineering, intellectual-property custody, finance, ownership and institutional decision-making—not merely downstream employment or symbolic inclusion.</p>
-          <div class="principle">The founder is a Métis Nation—Saskatchewan citizen. This identity and current founder control do not imply Métis Nation—Saskatchewan endorsement, authority to speak for an Indigenous government or community, Indigenous Business Directory registration, procurement qualification or ownership of community knowledge. The founder's Métis heritage, including its personal cultural and spiritual significance, informs SIS's institutional inspiration; SIS does not define Métis spirituality, culture, law or governance.</div>
-          <div class="status-line"><strong>Current legal/operating state:</strong> pre-revenue and pre-incorporation, preparing to incorporate in Saskatchewan. No SIS business number, dedicated SIS domain or SIS-domain email identity is represented as currently registered or provisioned. Research, proposals and external discussions do not by themselves establish awards, contracts, certification, customer acceptance or independent validation.</div>
-        </div>
-      </div>
-    </section>
-
-    <section id="platform">
-      <div class="wrap section-grid">
-        <p class="section-title">Platform</p>
-        <div class="section-body">
-          <h2>Sovereign Engines</h2>
-          <p>Sovereign Engines is the principal technology and platform family beneath Sovereign Integrity Systems. Current PUBLIC_SAFE work spans high-assurance Rust systems, deterministic and bounded execution, cryptography and post-quantum migration, evidence and provenance semantics, formal and adversarial assurance, resilient/offline operation and domain-specific research systems.</p>
-          <p class="muted">The platform is developed with explicit separation between source, execution evidence, integration, effectiveness, independent validation and certification.</p>
-        </div>
-      </div>
-    </section>
-
-    <section id="research">
-      <div class="wrap section-grid">
-        <p class="section-title">Research &amp; engineering</p>
-        <div class="section-body">
-          <h2>A deliberately cross-domain research programme.</h2>
-          <div class="scope">
-            <div class="scope-row"><span class="scope-no">01</span><h3>High-assurance systems</h3><p>Deterministic software, constrained execution, fault containment, verification infrastructure and evidence-governed engineering for safety- and security-sensitive contexts.</p></div>
-            <div class="scope-row"><span class="scope-no">02</span><h3>Cryptography &amp; PQC</h3><p>Classical and post-quantum capability, migration architecture, key lifecycle, side-channel and fault assurance, with implementation and validation claims kept evidence-bound.</p></div>
-            <div class="scope-row"><span class="scope-no">03</span><h3>Scientific measurement</h3><p>Sensors, materials characterization, metrology, physical-world evidence, provenance and translation of observations into bounded digital claims.</p></div>
-            <div class="scope-row"><span class="scope-no">04</span><h3>Physical engineering</h3><p>Materials, spectroscopy, vibroacoustics, structural dynamics, model-based engineering, harsh-environment evidence and reproducible measurement planning.</p></div>
-          </div>
-          <p class="muted" style="margin-top:22px">These descriptions establish research scope, not enabling invention disclosure, experimental effectiveness, patentability, regulatory approval or certification. Exact mechanisms, recipes, thresholds, sensitive proposal content and unpublished claim combinations remain outside the public layer unless explicitly released.</p>
-        </div>
-      </div>
-    </section>
-
-    <section id="assurance">
-      <div class="wrap section-grid">
-        <p class="section-title">Assurance posture</p>
-        <div class="section-body">
-          <h2>Claims remain bounded by their evidence.</h2>
-          <p>SIS develops toward demanding assurance and regulated-system contexts, including Common Criteria / ISO/IEC 15408, DO-178C and DO-333, ISO 26262, IEC 61508, Canadian government security profiles and NIST post-quantum standards.</p>
-          <div class="principle">These are engineering, research and evidence-mapping contexts. They are not blanket claims of certification, accreditation, production authorization, security clearance, independent validation or field effectiveness.</div>
-        </div>
-      </div>
-    </section>
-
-    <section id="people">
-      <div class="wrap section-grid">
-        <p class="section-title">People &amp; roots</p>
-        <div class="section-body">
-          <h2>Foundational leadership and collaboration.</h2>
-          <div class="people">
-            <div class="person"><div class="person-role">Founder &amp; technical lead</div><h3>Christopher G.O. Gust</h3><p>Currently carries executive and technical leadership functions pending incorporation and future lawful delegation. Canadian citizen, Métis Nation—Saskatchewan citizen and journeyman ironworker.</p></div>
-            <div class="person"><div class="person-role">Foundational collaborator</div><h3>Anna Dostal</h3><p>SIS's first non-founder operating collaborator and a material source of support and inspiration during the institution's foundational establishment period. Contributes to institutional learning, R&amp;D opportunity development and progressive business, finance and operations work.</p></div>
-          </div>
-          <p class="muted" style="margin-top:24px">Christopher's Métis Nation—Saskatchewan citizenship creates no Nation/community mandate or endorsement. Anna's operating role does not imply legal partnership, officer/director status, signing authority or issued equity. Additional personal biography is not published without her explicit consent.</p>
-        </div>
-      </div>
-    </section>
-
-    <section id="contact">
-      <div class="wrap section-grid">
-        <p class="section-title">Contact</p>
-        <div class="section-body">
-          <h2>Institutional inquiry</h2>
-          <p>Christopher G.O. Gust · Founder and technical lead</p>
-          <div class="contact-line"><a href="mailto:cgust.dev@gmail.com">cgust.dev@gmail.com</a><a href="https://github.com/sovereignintegritysystems/Sovereign-Integrity-Systems">Public GitHub</a></div>
-          <p class="muted" style="margin-top:22px">The Gmail address is a temporary public contact binding pending a dedicated SIS domain and institutional email provisioning.</p>
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <footer>
-    <div class="wrap footer-row">
-      <div class="footer-brand"><img src="assets/brand/sis-canonical-mark-web.png" alt=""><span>© 2026 Sovereign Integrity Systems</span></div>
-      <div class="historical">Sovereign Integrity Systems is the current operating identity. <strong>accompli-sure.com</strong> is a historical domain retained for continuity and is not the authoritative current SIS institutional profile.</div>
-    </div>
-  </footer>
-</body>
-</html>
+<body data-brand-revision="sis-mark-d5801cdd-20260812-r2">
+<header><div class="wrap mast"><a class="brand" href="#top" aria-label="Sovereign Integrity Systems home"><span class="brand-mark" role="img" aria-label="Sovereign Integrity Systems institutional mark"></span><span><span class="brand-name">Sovereign Integrity Systems</span><span class="brand-sub">High-Assurance Digital Infrastructure</span></span></a><nav><a href="#institution">Institution</a><a href="#platform">Platform</a><a href="#research">Research</a><a href="#assurance">Assurance</a><a href="#people">People</a><a href="#contact">Contact</a></nav></div></header>
+<main id="top">
+<div class="wrap hero"><div><div class="eyebrow">Métis-founded · Saskatchewan · Canada</div><h1>High-Assurance Digital Infrastructure</h1><p class="lead">Sovereign Integrity Systems develops evidence-governed digital infrastructure and research systems for consequential environments—where correctness, continuity, provenance, security, bounded authority and the ability to reconstruct what happened are material requirements.</p><div class="hero-meta"><span>Canadian first-party capability</span><span>Research &amp; engineering</span><span>Provider-independent authority</span></div></div><div class="hero-mark" role="img" aria-label="Sovereign Integrity Systems canonical institutional mark"></div></div>
+<section id="institution"><div class="wrap section-grid"><p class="section-title">Institution</p><div class="section-body"><h2>Canadian capability, retained authority and durable institutional knowledge.</h2><p>SIS is being built as a <strong>Métis-founded, founder-controlled, Saskatchewan-rooted Canadian institution</strong>. Its sovereignty objective is practical: increase Canada's capacity to originate, understand, operate, verify, repair and evolve consequential capabilities from first-party knowledge and source without making a foreign vendor, cloud, repository or proprietary platform the source of authority for core capability.</p><p>International science and collaboration remain compatible with that objective. SIS distinguishes <strong>cooperation from dependency</strong>: external systems may extend capability, while critical first-party knowledge, control, evidence and reconstruction paths should remain governable and recoverable in Canada.</p><p>A second founding objective is to expand first-class Métis and broader Indigenous participation in technical architecture, science and R&amp;D, engineering, intellectual-property custody, finance, ownership and institutional decision-making—not merely downstream employment or symbolic inclusion.</p><div class="principle">The founder is a Métis Nation—Saskatchewan citizen. This identity and current founder control do not imply Métis Nation—Saskatchewan endorsement, authority to speak for an Indigenous government or community, Indigenous Business Directory registration, procurement qualification or ownership of community knowledge. The founder's Métis heritage, including its personal cultural and spiritual significance, informs SIS's institutional inspiration; SIS does not define Métis spirituality, culture, law or governance.</div><div class="status"><strong>Current legal/operating state:</strong> pre-revenue and pre-incorporation, preparing to incorporate in Saskatchewan. No SIS business number, dedicated SIS domain or SIS-domain email identity is represented as currently registered or provisioned. Research, proposals and external discussions do not by themselves establish awards, contracts, certification, customer acceptance or independent validation.</div></div></div></section>
+<section id="platform"><div class="wrap section-grid"><p class="section-title">Platform</p><div class="section-body"><h2>Sovereign Engines</h2><p>Sovereign Engines is the principal technology and platform family beneath Sovereign Integrity Systems. Current PUBLIC_SAFE work spans high-assurance Rust systems, deterministic and bounded execution, cryptography and post-quantum migration, evidence and provenance semantics, formal and adversarial assurance, resilient/offline operation and domain-specific research systems.</p><p class="muted">The platform is developed with explicit separation between source, execution evidence, integration, effectiveness, independent validation and certification.</p></div></div></section>
+<section id="research"><div class="wrap section-grid"><p class="section-title">Research &amp; engineering</p><div class="section-body"><h2>A deliberately cross-domain research programme.</h2><div class="scope"><div class="scope-row"><span class="scope-no">01</span><h3>High-assurance systems</h3><p>Deterministic software, constrained execution, fault containment, verification infrastructure and evidence-governed engineering for safety- and security-sensitive contexts.</p></div><div class="scope-row"><span class="scope-no">02</span><h3>Cryptography &amp; PQC</h3><p>Classical and post-quantum capability, migration architecture, key lifecycle, side-channel and fault assurance, with implementation and validation claims kept evidence-bound.</p></div><div class="scope-row"><span class="scope-no">03</span><h3>Scientific measurement</h3><p>Sensors, materials characterization, metrology, physical-world evidence, provenance and translation of observations into bounded digital claims.</p></div><div class="scope-row"><span class="scope-no">04</span><h3>Physical engineering</h3><p>Materials, spectroscopy, vibroacoustics, structural dynamics, model-based engineering, harsh-environment evidence and reproducible measurement planning.</p></div></div><p class="muted" style="margin-top:22px">These descriptions establish research scope, not enabling invention disclosure, experimental effectiveness, patentability, regulatory approval or certification.</p></div></div></section>
+<section id="assurance"><div class="wrap section-grid"><p class="section-title">Assurance posture</p><div class="section-body"><h2>Claims remain bounded by their evidence.</h2><p>SIS develops toward demanding assurance and regulated-system contexts, including Common Criteria / ISO/IEC 15408, DO-178C and DO-333, ISO 26262, IEC 61508, Canadian government security profiles and NIST post-quantum standards.</p><div class="principle">These are engineering, research and evidence-mapping contexts. They are not blanket claims of certification, accreditation, production authorization, security clearance, independent validation or field effectiveness.</div></div></div></section>
+<section id="people"><div class="wrap section-grid"><p class="section-title">People &amp; roots</p><div class="section-body"><h2>Foundational leadership and collaboration.</h2><div class="people"><div class="person"><div class="person-role">Founder &amp; technical lead</div><h3>Christopher G.O. Gust</h3><p>Currently carries executive and technical leadership functions pending incorporation and future lawful delegation. Canadian citizen, Métis Nation—Saskatchewan citizen and journeyman ironworker.</p></div><div class="person"><div class="person-role">Foundational collaborator</div><h3>Anna Dostal</h3><p>SIS's first non-founder operating collaborator and a material source of support and inspiration during the institution's foundational establishment period. Contributes to institutional learning, R&amp;D opportunity development and progressive business, finance and operations work.</p></div></div><p class="muted" style="margin-top:24px">Christopher's Métis Nation—Saskatchewan citizenship creates no Nation/community mandate or endorsement. Anna's operating role does not imply legal partnership, officer/director status, signing authority or issued equity. Additional personal biography is not published without her explicit consent.</p></div></div></section>
+<section id="contact"><div class="wrap section-grid"><p class="section-title">Contact</p><div class="section-body"><h2>Institutional inquiry</h2><p>Christopher G.O. Gust · Founder and technical lead</p><div class="contact-line"><a href="mailto:cgust.dev@gmail.com">cgust.dev@gmail.com</a><a href="https://github.com/sovereignintegritysystems/Sovereign-Integrity-Systems">Public GitHub</a></div><p class="muted" style="margin-top:22px">The Gmail address is a temporary public contact binding pending a dedicated SIS domain and institutional email provisioning.</p></div></div></section>
+</main>
+<footer><div class="wrap footer-row"><div class="footer-brand"><span class="footer-mark" aria-hidden="true"></span><span>© 2026 Sovereign Integrity Systems</span></div><div class="historical">Sovereign Integrity Systems is the current operating identity. <strong>accompli-sure.com</strong> is a historical domain retained for continuity and is not the authoritative current SIS institutional profile.</div></div></footer>
+</body></html>
