@@ -18,11 +18,11 @@ The original Drive object above is the authoritative raster custody artifact. It
 
 - Repository path: `assets/brand/sis-canonical-mark-web.png`
 - Projection dimensions: 256 × 256 px
-- Projection method: deterministic LANCZOS downsample from the canonical 1024 × 1024 PNG, aspect ratio and transparency preserved; no semantic redesign or recolouring
-- Projection SHA-256: `4058fc79e6a4e450fe130bbf1eb79c18542b0fcfe9938dd233760fbe01783885`
-- Git blob at initial registration: `5aadb006079f1cf9c27818a48e8d40ef9205a52b`
+- Projection method: LANCZOS downsample from the canonical 1024 × 1024 RGBA PNG, followed by 256-entry indexed-palette web optimization with no dithering; aspect ratio, transparency and visual colour relationships preserved; no geometry, leaf or semantic redesign
+- Projection SHA-256: `d5801cdd3fc2ef54827440032fe5a2d4d516ac85538c301194146c9767fec947`
+- Current Git blob: `5cf765a18edd2cb118a27aedab3efed056e73b0c`
 
-This derivative exists only to reduce public-web transfer size. It does not supersede the original.
+This derivative exists only to reduce public-web transfer size. It does not supersede the original. The prior lossless-RGBA 256 × 256 derivative SHA-256 `4058fc79e6a4e450fe130bbf1eb79c18542b0fcfe9938dd233760fbe01783885` is historical projection provenance and is superseded for active web delivery by the current optimized derivative.
 
 ## Mark identity and use
 
