@@ -44,14 +44,13 @@
     .card { border:1px solid var(--line); background:var(--panel); padding:20px; min-height:150px; }
     .card p { color:var(--muted); margin:0; }
     .claim { border-left:2px solid var(--accent); padding-left:18px; color:#d5dde3; }
-    .contacts { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:14px; }
     footer { border-top:1px solid var(--line); padding:30px 0 46px; color:var(--muted); font-size:.88rem; }
     .footer-row { display:flex; justify-content:space-between; gap:24px; flex-wrap:wrap; }
-    @media (max-width:760px) { header { align-items:flex-start; } nav { display:none; } .section-grid { grid-template-columns:1fr; gap:22px; } .cards,.contacts { grid-template-columns:1fr; } main { padding-top:20px; } .hero { padding:36px 0 58px; } }
+    @media (max-width:760px) { header { align-items:flex-start; } nav { display:none; } .section-grid { grid-template-columns:1fr; gap:22px; } .cards { grid-template-columns:1fr; } main { padding-top:20px; } .hero { padding:36px 0 58px; } }
   </style>
 </head>
 <body>
-  <div class="continuity"><div class="wrap">Sovereign Integrity Systems is the current operating identity. <strong>accompli-sure.com</strong> is a historical domain; a dedicated SIS domain and institutional email identities are planned but not yet provisioned.</div></div>
+  <div class="continuity"><div class="wrap">Sovereign Integrity Systems is the current operating identity. <strong>accompli-sure.com</strong> is a historical domain; a dedicated SIS domain and institutional email identity are not yet represented as provisioned.</div></div>
   <div class="wrap">
     <header>
       <a class="brand" href="#top" aria-label="Sovereign Integrity Systems home">
@@ -59,7 +58,7 @@
         <span><strong>Sovereign Integrity Systems</strong><span>High-Assurance Digital Infrastructure</span></span>
       </a>
       <nav aria-label="Primary">
-        <a href="#status">Status</a><a href="#work">Work</a><a href="#research">Research</a><a href="#assurance">Assurance</a><a href="#contact">Contact</a>
+        <a href="#status">Status</a><a href="#work">Work</a><a href="#research">Research</a><a href="#assurance">Assurance</a><a href="#people">People</a><a href="#contact">Contact</a>
       </nav>
     </header>
 
@@ -70,7 +69,7 @@
         <p class="lead">Sovereign Integrity Systems develops sovereignty-oriented digital infrastructure and research systems for environments where correctness, continuity, provenance, security, bounded authority and evidentiary legitimacy matter.</p>
         <div class="actions">
           <a class="button" href="https://github.com/sovereignintegritysystems/Sovereign-Integrity-Systems">Public GitHub</a>
-          <a class="button secondary" href="mailto:cgust.dev@gmail.com">Contact founder</a>
+          <a class="button secondary" href="mailto:cgust.dev@gmail.com">Institutional inquiry</a>
         </div>
       </div>
 
@@ -79,8 +78,8 @@
           <h2>Current status</h2>
           <div>
             <p>SIS is a <strong>pre-revenue, pre-incorporation Saskatchewan research and engineering venture</strong> preparing to incorporate in Saskatchewan. Its practical operating and research footprint is centred in Regina and Yorkton.</p>
-            <p>No SIS business number, dedicated SIS domain, or SIS-domain email account is represented as currently registered or provisioned. A new domain, individual institutional email identities, and the appropriate business-number/tax registrations are planned when resources and registration needs permit.</p>
-            <p class="muted">Proposals, research activity, source code and external discussions do not by themselves establish revenue, awards, contracts, certification, customer acceptance or independent validation.</p>
+            <p>No SIS business number, dedicated SIS domain, or SIS-domain email account is represented as currently registered or provisioned.</p>
+            <p class="muted">Proposals, research activity, source code, laboratory discussions and external inquiries do not by themselves establish revenue, awards, contracts, certification, customer acceptance, partnership or independent validation.</p>
           </div>
         </div>
       </section>
@@ -90,7 +89,7 @@
           <h2>Platform</h2>
           <div>
             <h3>Sovereign Engines</h3>
-            <p>Sovereign Engines is the principal technology and platform family beneath Sovereign Integrity Systems. Current work spans high-assurance Rust systems, deterministic and bounded execution, cryptography and post-quantum migration, evidence and provenance semantics, formal and adversarial assurance, resilient/offline operation and domain-specific systems.</p>
+            <p>Sovereign Engines is the principal technology and platform family beneath Sovereign Integrity Systems. Current public-safe work spans high-assurance Rust systems, deterministic and bounded execution, cryptography and post-quantum migration, evidence and provenance semantics, formal and adversarial assurance, resilient/offline operation and domain-specific research systems.</p>
             <p class="muted">The platform is developed with explicit separation between source, execution evidence, integration, effectiveness, independent validation and certification.</p>
           </div>
         </div>
@@ -99,11 +98,14 @@
       <section id="research">
         <div class="section-grid">
           <h2>Research &amp; engineering</h2>
-          <div class="cards">
-            <article class="card"><h3>Scientific measurement</h3><p>Research into sensors, materials characterization, physical-world evidence, metrology, provenance and the translation of observations into bounded digital claims.</p></article>
-            <article class="card"><h3>High-assurance systems</h3><p>Deterministic software, constrained execution, fault containment, verification infrastructure and evidence-governed engineering for safety- and security-sensitive contexts.</p></article>
-            <article class="card"><h3>Cryptography &amp; PQC</h3><p>Classical and post-quantum capability, migration architecture, key lifecycle, side-channel and fault assurance, with exact implementation and validation claims kept evidence-bound.</p></article>
-            <article class="card"><h3>Standards &amp; applicability</h3><p>Research connecting authoritative requirements, jurisdiction, applicability predicates, engineering obligations and evidence requirements without treating standards orientation as certification.</p></article>
+          <div>
+            <div class="cards">
+              <article class="card"><h3>Scientific measurement</h3><p>Sensors, materials characterization, physical-world evidence, metrology, provenance and translation of observations into bounded digital claims.</p></article>
+              <article class="card"><h3>High-assurance systems</h3><p>Deterministic software, constrained execution, fault containment, verification infrastructure and evidence-governed engineering for safety- and security-sensitive contexts.</p></article>
+              <article class="card"><h3>Cryptography &amp; PQC</h3><p>Classical and post-quantum capability, migration architecture, key lifecycle, side-channel and fault assurance, with exact implementation and validation claims kept evidence-bound.</p></article>
+              <article class="card"><h3>Physical engineering</h3><p>Materials, spectroscopy, vibroacoustics, structural dynamics, model-based engineering, harsh-environment evidence and reproducible measurement planning.</p></article>
+            </div>
+            <p class="muted" style="margin-top:18px">These descriptions establish research scope, not enabling invention disclosure, experimental effectiveness, patentability, regulatory approval or certification. Exact mechanisms, recipes, thresholds, sensitive proposal content and unpublished claim combinations remain outside the public layer unless explicitly released.</p>
           </div>
         </div>
       </section>
@@ -113,7 +115,18 @@
           <h2>Assurance posture</h2>
           <div>
             <p>SIS develops toward demanding assurance and regulated-system contexts, including Common Criteria / ISO/IEC 15408, DO-178C and DO-333, ISO 26262, IEC 61508, Canadian government security profiles and NIST post-quantum standards.</p>
-            <p class="claim">These are engineering, research and evidence-mapping contexts. They are not blanket claims of certification, accreditation, production authorization, independent validation or field effectiveness.</p>
+            <p class="claim">These are engineering, research and evidence-mapping contexts. They are not blanket claims of certification, accreditation, production authorization, security clearance, independent validation or field effectiveness.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="people">
+        <div class="section-grid">
+          <h2>People &amp; roots</h2>
+          <div>
+            <p><strong>Christopher G.O. Gust</strong> is the founder and technical lead and currently carries executive and technical leadership functions pending incorporation and future lawful delegation. He is a Canadian citizen, a Métis Nation—Saskatchewan citizen and a journeyman ironworker.</p>
+            <p><strong>Anna Dostal</strong> is SIS's first non-founder operating collaborator, contributing to institutional learning, R&amp;D opportunity development and progressive business, finance and operations work.</p>
+            <p class="muted">Christopher's Métis Nation—Saskatchewan citizenship is a factual personal identity statement. It does not imply endorsement, mandate or authority from Métis Nation—Saskatchewan or any other Indigenous government, Nation, community or organization. Anna's operating role does not imply legal partnership, officer/director status, signing authority or issued equity.</p>
           </div>
         </div>
       </section>
@@ -122,11 +135,9 @@
         <div class="section-grid">
           <h2>Contact</h2>
           <div>
-            <div class="contacts">
-              <article class="card"><h3>Christopher G.O. Gust</h3><p>Founder and technical lead; currently carrying executive and technical leadership functions pending incorporation and future lawful delegation.<br><a href="mailto:cgust.dev@gmail.com">cgust.dev@gmail.com</a><br><a href="tel:+14743491394">474-349-1394</a></p></article>
-              <article class="card"><h3>Anna Dostal</h3><p>First non-founder operating collaborator; current scope includes institutional learning, R&amp;D opportunity contribution and progressive business, finance and operations development.<br><a href="mailto:dostalanna@gmail.com">dostalanna@gmail.com</a><br><a href="tel:+13065263060">306-526-3060</a></p></article>
-            </div>
-            <p class="muted" style="margin-top:18px">Current Gmail addresses and telephone numbers are replaceable contact bindings, not permanent institutional identities. Public technical and institutional material is released through the SIS PUBLIC_SAFE publication boundary.</p>
+            <h3>Christopher G.O. Gust</h3>
+            <p>Founder and technical lead<br><a href="mailto:cgust.dev@gmail.com">cgust.dev@gmail.com</a></p>
+            <p class="muted">This is a temporary public contact binding. Personal telephone numbers and collaborator personal contact information are intentionally excluded from the general public institutional surface.</p>
           </div>
         </div>
       </section>

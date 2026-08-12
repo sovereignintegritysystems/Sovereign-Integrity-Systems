@@ -17,12 +17,11 @@ Current public maturity state:
 
 Current public web projection: **https://sovereign-integrity-systems.vercel.app**. Its source is the PUBLIC_SAFE website artifact in `sovereignintegritysystems/Sovereign-Integrity-Systems`. Vercel is a publication provider with authority `NONE`; provider state does not create company, legal, research, engineering or evidence authority.
 
-Current contact bindings:
+Current public contact:
 
-- **Christopher G.O. Gust** — `cgust.dev@gmail.com` — `474-349-1394`;
-- **Anna Dostal** — `dostalanna@gmail.com` — `306-526-3060`.
+- **Christopher G.O. Gust** — `cgust.dev@gmail.com`.
 
-These are current replaceable contact bindings rather than permanent institutional identities.
+The Gmail address is a temporary, replaceable public contact binding rather than a permanent institutional identity. Personal phone numbers and collaborator personal contact information are intentionally not part of the general public institutional profile.
 
 SIS does **not** presently represent the following as established:
 
@@ -30,21 +29,38 @@ SIS does **not** presently represent the following as established:
 - SIS-domain email identities;
 - a business number, GST account or tax account.
 
-A new domain, individual SIS institutional email identities and appropriate business-number/tax registrations are planned when resources and registration needs permit. Future provisioning must be represented as current only after provider or documentary readback establishes it.
+Those states become current only after actual provider or documentary readback establishes them.
 
 ## Leadership and collaboration
 
-**Christopher G.O. Gust** — Founder and technical lead; currently carrying executive and technical leadership functions pending incorporation and future lawful delegation. Canadian citizen, Métis Nation—Saskatchewan citizen and journeyman ironworker. His practical trades background informs an engineering posture that gives unusual weight to field constraints, physical installation and inspection, maintainability, failure modes, and evidence that remains reconstructable outside a laboratory or cloud environment.
+**Christopher G.O. Gust** — Founder and technical lead; currently carrying executive and technical leadership functions pending incorporation and future lawful delegation. Canadian citizen, Métis Nation—Saskatchewan citizen and journeyman ironworker. His practical trades background informs an engineering posture that gives unusual weight to field constraints, physical installation and inspection, maintainability, failure modes and evidence that remains reconstructable outside a laboratory or cloud environment.
 
 **Anna Dostal** — First non-founder operating collaborator. Current work includes institutional learning, R&D opportunity contribution and progressive development across business, finance and operations. This is an operating-role description only; it does not imply legal partnership, officer/director status, signing authority, issued equity or fiduciary authority.
 
+Personal biography beyond what is relevant to the operating role is not automatically public merely because it could add institutional narrative value.
+
+## Indigenous and Canadian institutional boundary
+
+SIS is being developed as a Canadian, Saskatchewan-rooted institution. Christopher's Métis Nation—Saskatchewan citizenship is a factual personal identity statement and may be relevant to founder identity, Indigenous-business eligibility and the company's Canadian/Saskatchewan orientation.
+
+It does **not** imply that SIS:
+
+- speaks for or is endorsed by Métis Nation—Saskatchewan or another Indigenous government, Nation, community or organization;
+- has authority to define Indigenous law, governance or cultural protocol;
+- owns community knowledge, cultural material, data or intellectual property;
+- has received consent, mandate, procurement qualification or partnership merely from the founder's citizenship.
+
+Any such authority, consent, qualification or relationship requires its own current evidence. SIS intends to preserve genuine Indigenous ownership/control where strategically and legally appropriate rather than using Indigenous identity as a marketing proxy.
+
 ## Current public-sector and research activity
 
-In July 2026, SIS submitted two proposals to the Department of National Defence **IDEaS Competitive Projects CFP006** program. The internal program families are **BOREALIS** and **PALISADE**. These remain proposals: SIS does not claim selection, funding, award, contract or DND endorsement.
+In July 2026, SIS submitted two proposals to the Department of National Defence **IDEaS Competitive Projects CFP006** program. These remain proposals: SIS does not claim selection, funding, award, contract or DND endorsement.
 
 SIS is also developing Saskatchewan opportunities through the **Made In Saskatchewan Technology (MIST)** pathway and Innovation Saskatchewan's **2026 aquatic-invasive-species Innovation Challenge**. These are opportunity/pursuit states only unless later public evidence establishes a pilot, selection or award.
 
-Current external research-development work includes discussions with Saskatchewan universities, applied-research facilities, the Canadian Light Source and other Canadian scientific resources to identify the least-complex facility capable of falsifying each physical research claim before escalation to scarce national infrastructure.
+Internal program codenames, unpublished proposal mechanisms and procurement-sensitive working material are intentionally omitted from this public profile because they do not improve the credibility decision an external institution needs to make.
+
+Current external research-development work includes discussions with Saskatchewan universities, applied-research facilities, the Canadian Light Source and other Canadian scientific resources to identify the least-complex facility capable of falsifying each physical research claim before escalation to scarce national infrastructure. A discussion or inquiry does not imply institutional partnership, endorsement, access approval or completed research.
 
 ## Research and engineering scope
 
@@ -62,7 +78,7 @@ Public-safe current domains include:
 - harsh-environment and wildfire physical-evidence research;
 - sensor/measurement provenance and cross-institution reproducibility.
 
-The public research surface intentionally describes research questions and evidence methods rather than unpublished enabling invention detail.
+The public research surface intentionally describes research questions, domains and evidence methods rather than unpublished enabling mechanisms, exact recipes, thresholds, claim combinations or sensitive experimental detail.
 
 ## Evidence and assurance boundary
 
@@ -77,15 +93,26 @@ Likewise:
 - a simulation is not a physical observation;
 - a laboratory observation is not field effectiveness;
 - a public research hypothesis is not patentability or freedom to operate;
-- an internal technical assessment is not third-party validation.
+- an internal technical assessment is not third-party validation;
+- a university, laboratory or government discussion is not endorsement.
 
-SIS develops toward demanding assurance contexts including Common Criteria, DO-178C/DO-333, ISO 26262, IEC 61508, Canadian government security profiles and NIST post-quantum standards. These are design, assurance and evidence-mapping contexts rather than blanket certification claims.
+SIS develops toward demanding assurance contexts including Common Criteria / ISO/IEC 15408, DO-178C/DO-333, ISO 26262, IEC 61508, Canadian government security profiles and NIST post-quantum standards. These are design, assurance and evidence-mapping contexts rather than blanket certification claims.
+
+## Layered external disclosure
+
+The current institutional strategy is deliberately neither opaque nor fully open:
+
+1. **Public institutional layer** — enough identity, maturity, real activity, research scope and evidence discipline for a skeptical scientist, government reviewer, partner or customer to assess legitimacy and fit.
+2. **Controlled diligence/collaboration layer** — additional technical, financial, contractual or research detail only for a legitimate decision need and under appropriate confidentiality, research-security, procurement, IP and data-rights conditions.
+3. **File/publish/release layer** — enabling invention detail, source, data or exact evidence becomes public only after an explicit filing/publication/release decision.
+
+This structure preserves institutional credibility while reducing unnecessary loss of IP, privacy, bargaining power and future international patent optionality.
 
 ## Saskatchewan and Canadian orientation
 
-SIS is being developed as a Canadian, Saskatchewan-rooted institution. Its current externalization strategy prefers Saskatchewan research, prototyping and validation resources where they can answer the scientific question credibly, then escalates to interprovincial or national facilities where the required capability, calibration, independence or evidence ceiling cannot be reached locally.
+SIS's current externalization strategy prefers Saskatchewan research, prototyping and validation resources where they can answer the scientific question credibly, then escalates to interprovincial or national facilities where the required capability, calibration, independence or evidence ceiling cannot be reached locally.
 
-The company is intended to retain its high-assurance intellectual-property and institutional base in Canada while building research, government, industrial and community partnerships appropriate to each program.
+The company is intended to retain its high-assurance intellectual-property and institutional base in Canada while building research, government, industrial and community relationships appropriate to each program. This is an operating objective, not a representation that any particular tax, procurement, grant, security or Indigenous-business qualification has already been obtained.
 
 ## Historical domain
 
@@ -93,4 +120,4 @@ The company is intended to retain its high-assurance intellectual-property and i
 
 ## Public disclosure rule
 
-This profile is a PUBLIC_SAFE projection. It does not disclose credentials, confidential counterparties, unpublished enabling invention detail, procurement-sensitive material, internal control-plane state, personal protected information, or claims above the evidence available to the authoritative internal source.
+This profile is a PUBLIC_SAFE projection. It does not disclose credentials, confidential counterparties, unpublished enabling invention detail, procurement-sensitive material, internal control-plane state, nonpublic personal information or claims above the evidence available to the authoritative internal source.
