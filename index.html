@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en-CA">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sovereign Integrity Systems — High-Assurance Digital Infrastructure</title>
+  <meta name="description" content="Sovereign Integrity Systems develops evidence-governed, sovereignty-oriented digital infrastructure and research systems for assurance-sensitive environments.">
+  <meta name="robots" content="index,follow">
+  <meta property="og:title" content="Sovereign Integrity Systems">
+  <meta property="og:description" content="High-Assurance Digital Infrastructure — research, engineering, assurance, scientific measurement, cryptography, provenance and resilient systems.">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#0a1016">
+  <style>
+    :root { color-scheme: dark; --bg:#0a1016; --panel:#101922; --line:#283744; --ink:#f3f6f8; --muted:#aebbc6; --accent:#d8e1e8; --max:1120px; }
+    * { box-sizing:border-box; }
+    html { scroll-behavior:smooth; }
+    body { margin:0; background:var(--bg); color:var(--ink); font:16px/1.65 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; }
+    a { color:var(--ink); text-underline-offset:.2em; }
+    .wrap { width:min(var(--max), calc(100% - 40px)); margin:auto; }
+    .continuity { border-bottom:1px solid var(--line); color:var(--muted); font-size:.86rem; padding:10px 0; }
+    header { display:flex; align-items:center; justify-content:space-between; gap:24px; padding:26px 0; }
+    .brand { display:flex; align-items:center; gap:14px; text-decoration:none; }
+    .mark { width:38px; aspect-ratio:1; border:2px solid var(--accent); clip-path:polygon(25% 6.7%,75% 6.7%,100% 50%,75% 93.3%,25% 93.3%,0 50%); display:grid; place-items:center; font-weight:800; font-size:.78rem; letter-spacing:.08em; }
+    .brand strong { display:block; letter-spacing:.01em; }
+    .brand span { display:block; color:var(--muted); font-size:.8rem; }
+    nav { display:flex; flex-wrap:wrap; gap:18px; font-size:.9rem; }
+    nav a { color:var(--muted); text-decoration:none; }
+    nav a:hover { color:var(--ink); }
+    main { padding:52px 0 30px; }
+    .hero { max-width:900px; padding:48px 0 76px; }
+    .kicker { color:var(--muted); text-transform:uppercase; letter-spacing:.16em; font-size:.76rem; font-weight:700; }
+    h1 { max-width:850px; font-size:clamp(3rem,8vw,6.8rem); line-height:.94; letter-spacing:-.055em; margin:.22em 0 .25em; }
+    .lead { max-width:780px; color:#d2dbe2; font-size:clamp(1.15rem,2.2vw,1.5rem); line-height:1.5; }
+    .actions { display:flex; flex-wrap:wrap; gap:12px; margin-top:30px; }
+    .button { display:inline-block; border:1px solid var(--accent); padding:11px 16px; text-decoration:none; font-weight:650; }
+    .button.secondary { border-color:var(--line); color:var(--muted); }
+    section { border-top:1px solid var(--line); padding:48px 0; }
+    .section-grid { display:grid; grid-template-columns:minmax(180px, .7fr) minmax(0, 2fr); gap:48px; }
+    h2 { font-size:1.05rem; margin:0; letter-spacing:.03em; }
+    h3 { margin:0 0 8px; font-size:1.1rem; }
+    p { margin:0 0 18px; }
+    .muted { color:var(--muted); }
+    .cards { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:14px; }
+    .card { border:1px solid var(--line); background:var(--panel); padding:20px; min-height:150px; }
+    .card p { color:var(--muted); margin:0; }
+    .claim { border-left:2px solid var(--accent); padding-left:18px; color:#d5dde3; }
+    footer { border-top:1px solid var(--line); padding:30px 0 46px; color:var(--muted); font-size:.88rem; }
+    .footer-row { display:flex; justify-content:space-between; gap:24px; flex-wrap:wrap; }
+    @media (max-width:760px) { header { align-items:flex-start; } nav { display:none; } .section-grid { grid-template-columns:1fr; gap:22px; } .cards { grid-template-columns:1fr; } main { padding-top:20px; } .hero { padding:36px 0 58px; } }
+  </style>
+</head>
+<body>
+  <div class="continuity"><div class="wrap">accompli-sure.com is a historical domain retained for continuity. The current operating identity presented here is Sovereign Integrity Systems.</div></div>
+  <div class="wrap">
+    <header>
+      <a class="brand" href="#top" aria-label="Sovereign Integrity Systems home">
+        <span class="mark" aria-hidden="true">SIS</span>
+        <span><strong>Sovereign Integrity Systems</strong><span>High-Assurance Digital Infrastructure</span></span>
+      </a>
+      <nav aria-label="Primary">
+        <a href="#work">Work</a><a href="#research">Research</a><a href="#assurance">Assurance</a><a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <div class="hero">
+        <div class="kicker">Saskatchewan, Canada</div>
+        <h1>Evidence-governed systems for consequential environments.</h1>
+        <p class="lead">Sovereign Integrity Systems develops sovereignty-oriented digital infrastructure and research systems for environments where correctness, continuity, provenance, security, bounded authority and evidentiary legitimacy matter.</p>
+        <div class="actions">
+          <a class="button" href="https://github.com/sovereignintegritysystems/Sovereign-Integrity-Systems">Public GitHub</a>
+          <a class="button secondary" href="mailto:chris@accompli-sure.com">Contact</a>
+        </div>
+      </div>
+
+      <section id="work">
+        <div class="section-grid">
+          <h2>Platform</h2>
+          <div>
+            <h3>Sovereign Engines</h3>
+            <p>Sovereign Engines is the principal technology and platform family beneath Sovereign Integrity Systems. Current work spans high-assurance Rust systems, deterministic and bounded execution, cryptography and post-quantum migration, evidence and provenance semantics, formal and adversarial assurance, resilient/offline operation and domain-specific systems.</p>
+            <p class="muted">The platform is developed with explicit separation between source, execution evidence, integration, effectiveness, independent validation and certification.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="research">
+        <div class="section-grid">
+          <h2>Research &amp; engineering</h2>
+          <div class="cards">
+            <article class="card"><h3>Scientific measurement</h3><p>Research into sensors, material characterization, physical-world evidence, metrology, provenance and the translation of observations into bounded digital claims.</p></article>
+            <article class="card"><h3>High-assurance systems</h3><p>Deterministic software, constrained execution, fault containment, verification infrastructure and evidence-governed engineering for safety- and security-sensitive contexts.</p></article>
+            <article class="card"><h3>Cryptography &amp; PQC</h3><p>Classical and post-quantum capability, migration architecture, key lifecycle, side-channel and fault assurance, with exact implementation and validation claims kept evidence-bound.</p></article>
+            <article class="card"><h3>Standards &amp; applicability</h3><p>Research connecting authoritative requirements, jurisdiction, applicability predicates, engineering obligations and evidence requirements without treating standards orientation as certification.</p></article>
+          </div>
+        </div>
+      </section>
+
+      <section id="assurance">
+        <div class="section-grid">
+          <h2>Assurance posture</h2>
+          <div>
+            <p>SIS develops toward demanding assurance and regulated-system contexts, including Common Criteria / ISO/IEC 15408, DO-178C and DO-333, ISO 26262, IEC 61508, Canadian government security profiles and NIST post-quantum standards.</p>
+            <p class="claim">These are engineering, research and evidence-mapping contexts. They are not blanket claims of certification, accreditation, production authorization, independent validation or field effectiveness.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact">
+        <div class="section-grid">
+          <h2>Contact</h2>
+          <div>
+            <p><strong>Sovereign Integrity Systems</strong><br>Saskatchewan, Canada</p>
+            <p><a href="mailto:chris@accompli-sure.com">chris@accompli-sure.com</a><br><a href="tel:+16399972842">639-997-2842</a></p>
+            <p class="muted">Public technical and institutional material is released through the SIS public publication boundary. Historical Accompli-Sure material should not be used to infer current SIS product, certification or deployment claims.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-row"><span>© 2026 Sovereign Integrity Systems</span><span>High-Assurance Digital Infrastructure</span></div>
+    </footer>
+  </div>
+</body>
+</html>
