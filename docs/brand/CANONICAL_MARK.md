@@ -10,7 +10,10 @@ Original-art date retained from source filename: 2026-07-25
 - Drive file ID: `1RiG3S7heJ3YhfOJFzTeZc4VHyN1zel6u`
 - Original format: PNG, RGBA, transparent background
 - Original dimensions: 1024 × 1024 px
+- Original size: 313,791 bytes (under 1 MiB)
 - Original SHA-256: `25d90bf527af89ec99669dc401e27488aee6c5a6b1e8712fe9ae133b80e30209`
+
+The founder re-supplied the compact 1024 × 1024 PNG on 2026-08-12; byte-level readback matched the already registered canonical source digest above. This is therefore confirmation of the existing canonical identity, not a new logo version.
 
 The original Drive object above is the authoritative raster custody artifact. It must not be silently replaced, redrawn, recoloured or regenerated.
 
@@ -23,6 +26,14 @@ The original Drive object above is the authoritative raster custody artifact. It
 - Current Git blob: `5cf765a18edd2cb118a27aedab3efed056e73b0c`
 
 This derivative exists only to reduce public-web transfer size. It does not supersede the original. The prior lossless-RGBA 256 × 256 derivative SHA-256 `4058fc79e6a4e450fe130bbf1eb79c18542b0fcfe9938dd233760fbe01783885` is historical projection provenance and is superseded for active web delivery by the current optimized derivative.
+
+### Delivery and rendering invariant
+
+Asset presence is not visible propagation. A provider or repository readback proving that the PNG exists is insufficient to claim that the mark is actually rendered in the public institutional composition.
+
+The current Vercel production page therefore embeds the registered web projection directly in the HTML/CSS payload for header, hero and footer rendering, while retaining the versioned PNG endpoint for favicon/social metadata and independent retrieval. Public-website admission requires both the expected page composition/reference and provider readback of the production revision. If a user-visible rendering contradicts backend asset-presence evidence, the visible failure controls and must be remediated.
+
+Current rendering revision marker: `sis-mark-d5801cdd-20260812-r2`.
 
 ## Mark identity and use
 
