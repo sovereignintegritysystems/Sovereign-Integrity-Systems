@@ -3,8 +3,6 @@
 Status: CURRENT SOURCE RENDITION / SUBORDINATE TO CANONICAL MARK
 Date: 2026-08-12
 
-The founder supplied a smaller PNG specifically to ease public-web use of the canonical SIS design.
-
 ## Source custody
 
 - Drive file: `SIS — Founder-Supplied Web Mark R3 — 2026-08-12.png`
@@ -14,29 +12,26 @@ The founder supplied a smaller PNG specifically to ease public-web use of the ca
 - Source size: 515,303 bytes
 - Source SHA-256: `3cf53e8255699fb74fdcde0458a1f13938f8d96e4d00d9e123ffa7cdd2259f1f`
 
-The R3 source is a distinct founder-approved web rendition of the same admitted SIS G/hexagonal enclosure, maple leaf and graphite/teal design. It is not byte-identical to the 1024 × 1024 archival asset.
+The R3 source is a distinct founder-approved web rendition of the admitted SIS G/hexagonal enclosure, maple leaf and graphite/teal design. It is not byte-identical to the 1024 × 1024 archival asset.
 
-## Current delivery derivative
+## Current delivery projection
 
-The visible site uses an alpha-preserving AVIF derivative made directly from this R3 source:
+Visible site instances use `assets/brand/sis-canonical-mark-web-r3.svg`. The projection is ordinary self-contained SVG geometry with no embedded AVIF/raster dependency. It was installed at commit `e5c3c86362f4e68285fbdadc57f91e417c8e33c0`; the page was bound to it at commit `81937c259f328dc553421fd9111ea4e11d7ead10`; production deployment is `dpl_7NuZo3RoUE3EoAKwRRLigvahxyub`.
 
-- Active path: `assets/brand/sis-canonical-mark-web-r4.avif`
-- Dimensions: 240 × 265 px
-- Size: 7,022 bytes
-- SHA-256: `6b1246a173cfb5758c166a30d8f19c4a8febec82715ff37c39748c1dbd502eb9`
-- Git blob: `3b4467c5322292f0bf90b4da8f7a9772dde99a1a`
-- Transformation: proportional downscale followed by alpha-preserving AVIF encoding; no redraw, recolouring or geometry change.
+The founder-supplied R3 PNG remains the visual/source authority. Any future regeneration must compare against that source, not recursively derive from a web transfer format.
 
-The prior 512 × 565 indexed-PNG derivative, SHA-256 `11327e71efbc2d35a4e6c55b9e2355849685777334d4122587e626b050e72ddf`, and its SVG delivery path are retained as historical implementation evidence. They are no longer the preferred visible page asset.
+## Browser-observed AVIF regression
 
-The compatibility/favicon SVG remains at `assets/brand/sis-canonical-mark-web-r3.svg` and resolves to the faithful current image rather than an independently redrawn mark.
+The former `assets/brand/sis-canonical-mark-web-r4.avif` transfer is RETIRED / INVALID FOR PUBLIC DELIVERY. Chrome visibly rendered only part of the mark: the lower-left graphite structure and major lower teal structure were absent. That contradiction superseded earlier repository, provider and decoder evidence. The AVIF file was removed from the public repository on 2026-08-12.
 
-## Retired defective carrier
+Git blob `aa48a9c52070a8e04f67104f8c26f9cd26597d72` is separately RETIRED / INVALID FOR RENDERING because its embedded PNG carrier was malformed.
 
-Git blob `aa48a9c52070a8e04f67104f8c26f9cd26597d72` is RETIRED / INVALID FOR RENDERING. Its embedded PNG was malformed even though the surrounding SVG existed and could be returned by repository/provider APIs. This is evidence for the rule that file/API presence cannot establish visible rendering.
+The earlier 512 × 565 indexed-PNG derivative, SHA-256 `11327e71efbc2d35a4e6c55b9e2355849685777334d4122587e626b050e72ddf`, remains historical implementation evidence.
 
-The 1024 × 1024 archival Drive asset remains canonical binary custody unless founder/brand authority explicitly supersedes it.
+## Rendering evidence rule
+
+Provider/API evidence that HTML or an asset exists is never sufficient proof of visible propagation. Browser-visible contradiction reopens the defect and requires carrier repair before PASS can be restored. The current pure-SVG projection has passed repository and production-provider readback; final visible confirmation is established only by a real browser observation of the repaired production page.
 
 ## Public presentation boundary
 
-Source names, rendition labels, hashes, revision identifiers and carrier terminology are control/provenance information. They remain in these records and must not be displayed as explanatory copy beside the mark on the public website.
+Source names, hashes, revision identifiers and carrier terminology are control/provenance information and must not be displayed as explanatory visitor-facing copy beside the mark.
