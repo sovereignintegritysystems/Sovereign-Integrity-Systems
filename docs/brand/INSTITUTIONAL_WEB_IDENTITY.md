@@ -22,13 +22,21 @@ The institution name therefore occupies the primary page heading. The positionin
 
 ## Canonical mark
 
-The founder-approved R3 web rendition registered in `docs/brand/CANONICAL_MARK.md` is the authoritative public-web mark. The active page uses the same-origin carrier at `assets/brand/sis-canonical-mark-web-r3.svg`.
+The founder-supplied R3 source registered in `docs/brand/CANONICAL_MARK.md` remains the authoritative public-web source rendition. The active page serves the faithful transfer derivative at `assets/brand/sis-canonical-mark-web-r4.avif`; the legacy SVG path remains only as a compatibility/favicon carrier.
 
-The carrier embeds the registered 512 × 565 R3 derivative SHA-256 `11327e71efbc2d35a4e6c55b9e2355849685777334d4122587e626b050e72ddf`; it does not redraw the mark.
+The active derivative is a transfer-format projection of the admitted source, not a redraw or reinterpretation.
 
-The mark is used as an identity/seal anchor in the masthead, institutional profile and footer. It is not used as a decorative background motif.
+The mark is used as an identity anchor in the masthead, institutional profile and footer. It is not used as a decorative background motif.
 
 A connected-account avatar or profile image may corroborate identity continuity, but profile imagery is not a brand-authority source and never supersedes the founder-approved canonical mark.
+
+## Public-copy boundary
+
+Brand provenance and control-plane vocabulary belong in documentation, not in visible public-page copy. The page must not visibly label the mark with phrases such as “canonical institutional mark,” “founder-approved rendition,” asset/revision identifiers, hashes, carrier names, source-state labels, or similar implementation/provenance language.
+
+Likewise, internal publication-state vocabulary such as `PUBLIC_SAFE`, evidence-state tokens, semantic-owner labels, revision markers and deployment/carrier terminology must not leak into visitor-facing prose unless the term itself is materially necessary to explain a public assurance concept.
+
+Public alt text should identify the institution or mark plainly. Detailed provenance remains in the governing records.
 
 ## Visual system
 
@@ -50,11 +58,11 @@ The surrounding page should remain quieter than the mark.
 The page should read more like a public institutional record than a generated startup homepage:
 
 - institution name first; positioning second;
-- modest seal scale rather than a dominant decorative hero graphic;
+- modest mark scale rather than a dominant decorative hero graphic;
 - explicit mandate, platform and operating-state register;
 - numbered institutional sections with stable semantic names;
 - evidence/authority limitations presented as formal notes rather than promotional cards;
-- capability descriptions bounded at PUBLIC_SAFE level;
+- capability descriptions bounded to information authorized for public release without exposing the internal release-state label;
 - direct contact and provenance without conversion funnels or urgency language;
 - historical identity retained only as continuity/provenance, never as current authority.
 
@@ -86,4 +94,5 @@ The private institutional repository may carry currentness/provenance pointers. 
 
 ## Current public revision
 
-Website source marker: `sis-mark-r3-institutional-profile-20260812`.
+Active direct web asset: `assets/brand/sis-canonical-mark-web-r4.avif`.
+Visible public-page provenance/version labels: prohibited.
