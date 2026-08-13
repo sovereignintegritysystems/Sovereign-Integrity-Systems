@@ -1,8 +1,8 @@
 # Sovereign Integrity Systems — Institutional Web Identity
 
-Status: CURRENT / PUBLIC WEB PRESENTATION DOCTRINE  
-Adopted: 2026-08-12  
-Semantic owner: public institutional projection under founder/brand authority  
+Status: CURRENT / PUBLIC WEB PRESENTATION DOCTRINE
+Adopted: 2026-08-12
+Semantic owner: public institutional projection under founder/brand authority
 Canonical visual source: `docs/brand/CANONICAL_MARK.md`
 
 ## Purpose
@@ -22,17 +22,17 @@ The institution name therefore occupies the primary page heading. The positionin
 
 ## Canonical mark
 
-The founder-approved R3 web rendition registered in `docs/brand/CANONICAL_MARK.md` is the authoritative public-web mark. The page uses its render-safe same-origin carrier at:
+The founder-approved R3 web rendition registered in `docs/brand/CANONICAL_MARK.md` is the authoritative public-web mark. The active page uses the same-origin carrier at `assets/brand/sis-canonical-mark-web-r3.svg`.
 
-`assets/brand/sis-canonical-mark-web-r3.svg`
+The carrier embeds the registered 512 × 565 R3 derivative SHA-256 `11327e71efbc2d35a4e6c55b9e2355849685777334d4122587e626b050e72ddf`; it does not redraw the mark.
 
-The mark is used as an identity/seal anchor in the masthead, institutional profile and footer. It is not redrawn, recoloured or converted into a decorative background motif.
+The mark is used as an identity/seal anchor in the masthead, institutional profile and footer. It is not used as a decorative background motif.
 
-The connected GitHub account identity may corroborate institutional continuity, but profile imagery is not an authority source and never supersedes the admitted canonical mark.
+A connected-account avatar or profile image may corroborate identity continuity, but profile imagery is not a brand-authority source and never supersedes the founder-approved canonical mark.
 
 ## Visual system
 
-The public web system is derived from the admitted mark rather than from generic technology-site conventions:
+The public web system is derived from the admitted mark rather than generic technology-site conventions:
 
 - dark charcoal field;
 - graphite structural rules;
@@ -43,7 +43,7 @@ The public web system is derived from the admitted mark rather than from generic
 - no ornamental gradients, glass effects, animated particles, floating badges or faux control panels;
 - no unsupported metrics, counters, partner-logo walls, certification badges or status theatre.
 
-The R3 mark itself may retain its founder-approved glow/field treatment. The surrounding site should remain quieter than the mark.
+The surrounding page should remain quieter than the mark.
 
 ## Institutional composition rules
 
@@ -60,7 +60,7 @@ The page should read more like a public institutional record than a generated st
 
 ## Technical presentation rules
 
-The institutional page intentionally remains static HTML/CSS with no JavaScript framework, external font dependency, analytics requirement or client-side rendering dependency. This is a feature rather than a maturity defect: public identity should remain legible, inspectable, cacheable and resilient without a front-end runtime.
+The institutional page intentionally remains static HTML/CSS with no JavaScript framework, external font dependency, analytics requirement or client-side rendering dependency. Public identity should remain legible, inspectable, cacheable and resilient without a front-end runtime.
 
 Accessibility requirements include semantic landmarks, keyboard-visible focus, useful alt text, responsive layouts and a print-safe representation.
 
@@ -68,15 +68,15 @@ Accessibility requirements include semantic landmarks, keyboard-visible focus, u
 
 Provider/API evidence that HTML or an asset exists is not sufficient proof of visible propagation.
 
-Completion requires all of the following at the relevant production revision:
+Evidence is reported by layer:
 
-1. source readback from the canonical public repository;
-2. provider deployment readback;
-3. ordinary `<img>` references to the canonical R3 carrier;
-4. a real browser load showing the intended page and mark;
-5. nonzero rendered/natural image dimensions and no browser-visible contradiction.
+1. source/custody digest verification;
+2. derivative digest and decoder verification;
+3. canonical repository readback;
+4. provider deployment/readback;
+5. real browser-visible rendering.
 
-A browser-visible failure reopens the defect even if repository and provider APIs report success.
+A browser-visible failure reopens the defect. A browser executor blocked from navigation before page load produces `UNOBSERVED`, not PASS and not website failure.
 
 ## Estate propagation rule
 
@@ -87,5 +87,3 @@ The private institutional repository may carry currentness/provenance pointers. 
 ## Current public revision
 
 Website source marker: `sis-mark-r3-institutional-profile-20260812`.
-
-This revision replaces the earlier oversized product-landing-page hierarchy with an institutional-profile hierarchy while retaining the admitted R3 mark and all material evidence/claim ceilings.
