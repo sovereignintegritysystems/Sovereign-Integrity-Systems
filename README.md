@@ -67,6 +67,17 @@ A proposal is not an award; a standards map is not certification; a simulation i
 
 SIS develops toward demanding assurance contexts including Common Criteria / ISO/IEC 15408, DO-178C/DO-333, ISO 26262, IEC 61508, Canadian government security profiles and NIST post-quantum standards. These are engineering, research and evidence-mapping contexts rather than blanket claims of certification, accreditation, production authorization, security clearance or independent validation.
 
+## Public technical contributions and validation
+
+SIS is beginning to expose a small number of public-safe, falsifiable technical contributions rather than relying on self-description as evidence of capability.
+
+- [`docs/publications/`](docs/publications/) indexes current public technical notes.
+- [`Evidence-State Non-Promotion — R1`](docs/publications/EVIDENCE_STATE_NON_PROMOTION_R1.md) describes a general method for preventing source, runtime, physical, independent, commercial and recognition evidence from silently promoting stronger claims.
+- [`Validation, Independent Review and Problem Discovery`](docs/engagement/VALIDATION_AND_REVIEW.md) describes the external criticism, operator/customer problem discovery, independent testing and research/standards participation evidence SIS is seeking.
+- [`SECURITY.md`](SECURITY.md) provides the current public vulnerability-reporting route.
+
+Publication, contact or criticism is evidence only of the exact event that occurred. These pages do not establish peer review, customer validation, standards standing, independent adoption or thought-leader status.
+
 ## Disclosure architecture
 
 SIS uses a layered disclosure model:
