@@ -66,8 +66,21 @@ A browser-visible contradiction reopens the defect even when all preceding layer
 
 The canonical binary/web asset remains owned by the public institutional repository. Other SIS repositories reference this canonical source rather than copy or fork the mark. Private institutional and technical repositories may carry currentness/provenance pointers but do not acquire brand authority.
 
+## Canva brand-production projection
+
+Canva is admitted only as a **brand-production and collateral projection**, never as a semantic or visual source of authority.
+
+Current governed Canva bindings established 2026-08-14:
+
+- workspace folder: `Sovereign Integrity Systems — Brand` / `FAHSSAzWHCg`;
+- imported canonical web mark asset: `SIS Canonical Mark — Web R3.svg` / `MAHSSGy1C5w`;
+- canonical tagline supplied to generated collateral: **High-Assurance Critical Infrastructure**;
+- generated business-card and visual brand-standard candidates remain **DRAFT / UNADMITTED** until a human selects a candidate and it is converted into an editable Canva design.
+
+No Canva Brand Kit is currently present. Canva-generated palettes, fonts, layouts, logos or copy therefore cannot become authoritative by provider creation alone. All SIS collateral must retain the identity hierarchy and visual constraints in this file, use the admitted mark without geometry/recolouring changes, and remain subordinate to founder/brand authority and the canonical repository/Drive sources.
+
 ## Current public revision
 
 Active direct web asset: `assets/brand/sis-canonical-mark-web-r3.svg`.
-Production repair deployment: `dpl_7NuZo3RoUE3EoAKwRRLigvahxyub`.
+Production tagline/currentness deployment: `dpl_AELwTKGepTweubB3HoNnA72r3QjX` (READY, production alias readback current 2026-08-14).
 Visible public-page provenance/version labels: prohibited.
