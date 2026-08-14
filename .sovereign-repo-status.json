@@ -29,8 +29,21 @@
     "status_consumed": false,
     "outside_funding_auto_readmits": false
   },
+  "public_web_projection": {
+    "provider": "VERCEL",
+    "project_id": "prj_ZOtRoAc1FL2tdjvEanTlrlpLqFTd",
+    "production_alias": "https://sovereign-integrity-systems.vercel.app/",
+    "observed_2026_08_14": "HTTP_200",
+    "authority": "NONE",
+    "visual_render_after_r3_repair": "UNOBSERVED"
+  },
+  "current_public_activity": {
+    "dnd_ideas_cfp006": "TWO_PROPOSALS_SUBMITTED_JULY_2026_NO_AWARD_CLAIM",
+    "innovation_saskatchewan_2026_aquatic_invasive_species_challenge": "EOI_SUBMITTED_2026_08_13_RECEIPT_ACKNOWLEDGED_REVIEW_PENDING",
+    "mist": "OPPORTUNITY_DEVELOPMENT"
+  },
   "current_patent_filing_state": "NONE",
-  "currentness_cutoff": "2026-08-12T09:12:00-06:00",
+  "currentness_cutoff": "2026-08-14T08:00:00-06:00",
   "supersedes_as_publication_carrier": "sovereignintegritysystems/sovereign-engines:docs/PUBLIC_GITHUB_PROFILE_README.md",
   "claim_ceiling": "PUBLICATION_PROJECTION_ONLY"
 }
