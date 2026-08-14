@@ -2,7 +2,7 @@
 
 ## Identity and maturity
 
-**Sovereign Integrity Systems (SIS)** is a Saskatchewan-based research and engineering venture focused on high-assurance digital infrastructure and evidence-governed physical/digital systems.
+**Sovereign Integrity Systems (SIS)** is a Saskatchewan-based research and engineering venture focused on high-assurance critical infrastructure and evidence-governed physical/digital systems.
 
 Current public maturity state:
 
