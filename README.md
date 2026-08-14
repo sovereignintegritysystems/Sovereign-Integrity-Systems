@@ -27,7 +27,7 @@ Start with [`PUBLIC_ESTATE_OVERVIEW.md`](PUBLIC_ESTATE_OVERVIEW.md) for the broa
 
 ## Founding purpose and sovereignty
 
-SIS is being built as a **Métis-founded, founder-controlled, Saskatchewan-rooted Canadian institution**. Its sovereignty objective is practical: increase Canada's capacity to originate, understand, operate, verify, repair and evolve consequential capabilities from first-party knowledge and source without making a foreign vendor, cloud, repository, proprietary platform or external provider the source of authority for core capability.
+SIS is being built as a **Métis-founded, founder-led, Saskatchewan-rooted Canadian institution**. Its sovereignty objective is practical: increase Canada's capacity to originate, understand, operate, verify, repair and evolve consequential capabilities from first-party knowledge and source without making a foreign vendor, cloud, repository, proprietary platform or external provider the source of authority for core capability.
 
 That objective is not technological isolationism. International science, standards, suppliers and collaboration remain valuable. SIS distinguishes **cooperation versus dependency**: external systems may extend capability, while critical first-party knowledge, control, evidence and reconstruction paths should remain governable and recoverable in Canada.
 
