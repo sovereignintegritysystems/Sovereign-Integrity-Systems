@@ -2,6 +2,7 @@
 
 Status: CURRENT / CANONICAL VISUAL IDENTITY
 Canonical designation date: 2026-08-12
+Geometry lock clarified: 2026-08-14
 
 ## Canonical archival source asset
 
@@ -34,10 +35,22 @@ The active site uses `assets/brand/sis-canonical-mark-web-r3.svg`, a direct vect
 - Active vector-fix commit: `e5c3c86362f4e68285fbdadc57f91e417c8e33c0`
 - Active Git blob at that commit: `5abf3a3b0552bc66fa26c0389a79553eff303235`
 - Public page binding commit: `81937c259f328dc553421fd9111ea4e11d7ead10`
-- Production deployment: `dpl_7NuZo3RoUE3EoAKwRRLigvahxyub`
+- Current production deployment after 2026-08-14 public-currentness refresh: `dpl_AELwTKGepTweubB3HoNnA72r3QjX`
 - Production alias: `https://sovereign-integrity-systems.vercel.app/`
 
 The vector projection exists to make browser delivery deterministic. The founder-supplied Drive PNG remains source authority for visual comparison and any future derivative regeneration.
+
+## Canonical geometry and palette lock
+
+The geometry currently encoded in `assets/brand/sis-canonical-mark-web-r3.svg` is the sole admitted public-web geometry. Colour exploration must not alter its polygon coordinates, proportions, openings, negative space or maple-leaf geometry.
+
+The current canonical R3 palette is:
+
+- Graphite `#333C43`
+- Deep teal `#3D8288`
+- Cool neutral leaf `#C2C5C2`
+
+A controlled institutional palette study exists at `docs/brand/PALETTE_STUDY_R3.md`. Files under `assets/brand/experimental/` are explicitly **NON-CANONICAL** colour-only studies until founder/brand authority admits a named successor. Their existence does not create an alternate primary mark.
 
 ## Retired defective projections
 
@@ -67,12 +80,15 @@ Required handling:
 
 1. Preserve proportions and transparent field.
 2. Do not substitute an improvised badge, generated lookalike or uncontrolled variant.
-3. Recolouring, geometry changes, leaf changes or alternate lockups require explicit brand-authority admission and a new versioned identity.
-4. Every derivative records source identity, transformation and output identity.
-5. Visitor-facing pages identify the mark plainly; hashes, carrier labels and control-plane terminology stay in governing records.
+3. Recolouring may be explored only as an explicitly labelled derivative; promotion to primary identity requires explicit brand-authority admission and a versioned identity decision.
+4. Geometry changes, leaf changes or alternate core-symbol constructions require a new versioned identity and may not be inferred from palette work.
+5. Every derivative records source identity, transformation and output identity.
+6. Visitor-facing pages identify the mark plainly; hashes, carrier labels and control-plane terminology stay in governing records.
+7. Historical ChatGPT/Canva brand boards are reference/provenance only and cannot override Drive/GitHub authority or current legal/contact/positioning state.
 
 ## Authority and routing
 
 Human/corporate brand authority remains with the founder pending lawful delegation. Drive retains archival binary custody. `sovereignintegritysystems/Sovereign-Integrity-Systems` owns the current public web projection. Other SIS repositories reference this record rather than creating uncontrolled logo variants.
 
 Institutional web presentation doctrine: `docs/brand/INSTITUTIONAL_WEB_IDENTITY.md`.
+Institutional palette/SRAIDM study: `docs/brand/PALETTE_STUDY_R3.md`.
