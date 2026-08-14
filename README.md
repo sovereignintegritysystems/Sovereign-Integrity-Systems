@@ -102,6 +102,10 @@ No patent applications are represented here as filed. Internal invention and pat
 
 `accompli-sure.com` is a historical domain associated with earlier work. It is **not** the current authoritative SIS profile. The current web projection is `https://sovereign-integrity-systems.vercel.app`, with this repository remaining the PUBLIC_SAFE source/front door until a dedicated SIS domain is actually provisioned and admitted.
 
+Historical Accompli-SURE / Solvyd pages may still be publicly reachable or search-indexed. Their categorical technical, security, compliance, deployment, product, customer/pilot, Indigenous-engagement, certification or domain-effectiveness statements are **not current SIS claims unless the same state is independently supported by the current PUBLIC_SAFE SIS source and its present evidence boundary**. Historical publication is evidence of historical state only; it cannot strengthen a current claim.
+
+See [`LEGACY_WEB_CURRENTNESS.md`](LEGACY_WEB_CURRENTNESS.md) for the explicit claim-supersession and remediation boundary.
+
 ---
 
 **Sovereign Integrity Systems**  
