@@ -1,5 +1,7 @@
 # Sovereign Integrity Systems — Institutional Profile
 
+> **Whole-estate public overview:** [`PUBLIC_ESTATE_OVERVIEW.md`](PUBLIC_ESTATE_OVERVIEW.md). This file is the supporting detailed public identity and operating profile, not a second whole-estate narrative authority. It is a PUBLIC_SAFE projection with authority `NONE`.
+
 ## Identity and maturity
 
 **Sovereign Integrity Systems (SIS)** is a Saskatchewan-based research and engineering venture focused on high-assurance critical infrastructure and evidence-governed physical/digital systems.
@@ -35,7 +37,7 @@ Personal biography beyond what is relevant to the operating role is not automati
 
 ## Founding purpose: Canadian capability and Métis/Indigenous self-actualization
 
-SIS is being built as a **Métis-founded, founder-controlled, Saskatchewan-rooted Canadian institution**. Its sovereignty objective is practical: increase Canada's capacity to originate, understand, operate, verify, repair and evolve consequential capabilities from first-party knowledge and source without making a foreign vendor, cloud, repository, proprietary platform or external provider the source of authority for core capability.
+SIS is being built as a **Métis-founded, founder-led, Saskatchewan-rooted Canadian institution**. Its sovereignty objective is practical: increase Canada's capacity to originate, understand, operate, verify, repair and evolve consequential capabilities from first-party knowledge and source without making a foreign vendor, cloud, repository, proprietary platform or external provider the source of authority for core capability.
 
 This is not technological isolationism. International science, standards, suppliers, collaborators and open research remain compatible with the SIS model. The distinction is **cooperation versus dependency**. External systems may extend capability; critical first-party knowledge, semantic authority, evidence, reconstruction paths and core implementation should remain governable and recoverable in Canada.
 
