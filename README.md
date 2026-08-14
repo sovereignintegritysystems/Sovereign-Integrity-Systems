@@ -23,13 +23,13 @@ Sovereign Integrity Systems develops evidence-governed, sovereignty-oriented dig
 
 **Sovereign Engines** is the principal technology and platform family beneath the company identity. Public-safe work includes high-assurance Rust systems; cryptography and post-quantum migration; deterministic and bounded execution; formal and adversarial assurance; DDIL/offline continuity; evidence, provenance and authority semantics; scientific measurement; physical-world research; and provider-independent reconstruction.
 
-See [`INSTITUTIONAL_PROFILE.md`](INSTITUTIONAL_PROFILE.md) for the current public company profile and [`RESEARCH_AND_ENGINEERING.md`](RESEARCH_AND_ENGINEERING.md) for the bounded research and engineering surface.
+Start with [`PUBLIC_ESTATE_OVERVIEW.md`](PUBLIC_ESTATE_OVERVIEW.md) for the broad public-safe description of the whole Sovereign estate. [`INSTITUTIONAL_PROFILE.md`](INSTITUTIONAL_PROFILE.md) is the supporting detailed company/identity profile, and [`RESEARCH_AND_ENGINEERING.md`](RESEARCH_AND_ENGINEERING.md) is the bounded research and engineering surface. These are publication projections with authority `NONE`; the whole-estate overview may narrow source truth but may never strengthen it.
 
 ## Founding purpose and sovereignty
 
-SIS is being built as a **Métis-founded, founder-controlled, Saskatchewan-rooted Canadian institution**. Its sovereignty objective is practical: increase Canada's capacity to originate, understand, operate, verify, repair and evolve consequential capabilities from first-party knowledge and source without making a foreign vendor, cloud, repository or proprietary platform the source of authority for core capability.
+SIS is being built as a **Métis-founded, founder-controlled, Saskatchewan-rooted Canadian institution**. Its sovereignty objective is practical: increase Canada's capacity to originate, understand, operate, verify, repair and evolve consequential capabilities from first-party knowledge and source without making a foreign vendor, cloud, repository, proprietary platform or external provider the source of authority for core capability.
 
-That objective is not technological isolationism. International science, standards, suppliers and collaboration remain valuable. SIS distinguishes **cooperation from dependency**: external systems may extend capability, while critical first-party knowledge, control, evidence and reconstruction paths should remain governable and recoverable in Canada.
+That objective is not technological isolationism. International science, standards, suppliers and collaboration remain valuable. SIS distinguishes **cooperation versus dependency**: external systems may extend capability, while critical first-party knowledge, control, evidence and reconstruction paths should remain governable and recoverable in Canada.
 
 A second founding objective is to increase **first-class Métis and broader Indigenous participation** in technical architecture, science and R&D, engineering, intellectual-property custody, finance, ownership and institutional decision-making—not merely downstream employment or symbolic inclusion.
 
