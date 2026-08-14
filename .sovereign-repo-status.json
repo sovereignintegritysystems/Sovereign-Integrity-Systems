@@ -23,7 +23,8 @@
     "account_ownership_does_not_establish_provenance_for_other_repositories",
     "public_content_does_not_imply_patent_filing_or_patent_pending",
     "github_actions_state_does_not_create_or_block_publication_evidence_currentness_or_release",
-    "vercel_http_200_or_ready_does_not_establish_source_currentness"
+    "vercel_http_200_or_ready_does_not_by_itself_establish_source_currentness",
+    "content_convergence_does_not_establish_exact_deployment_to_git_binding_or_real_browser_visual_correctness"
   ],
   "private_to_public_sync": "NO_AUTOMATIC_SYNC",
   "github_actions": {
@@ -36,22 +37,21 @@
     "provider": "VERCEL",
     "project_id": "prj_ZOtRoAc1FL2tdjvEanTlrlpLqFTd",
     "production_alias": "https://sovereign-integrity-systems.vercel.app/",
-    "canonical_public_source_head_before_status_projection": "062fdc6d06b5a79e1d887b7167a413267fc48313",
-    "last_observed_production_deployment": "dpl_7NuZo3RoUE3EoAKwRRLigvahxyub",
+    "canonical_public_repository_head_observed": "248d4b842d8de857f311a1e20ab326123fa8ddf6",
+    "canonical_index_blob_observed": "c9cd79afc0e15b3d6b827cc50debe7a251f3c1a8",
+    "last_observed_production_deployment": "dpl_AELwTKGepTweubB3HoNnA72r3QjX",
     "deployment_health": "READY_HTTP_200",
-    "source_currentness": "OBSERVED_STALE_SOURCE_PROJECTION",
-    "staleness_evidence": [
-      "DEPLOYED_TITLE_STILL_HIGH_ASSURANCE_DIGITAL_INFRASTRUCTURE",
-      "DEPLOYED_OG_DESCRIPTION_STILL_HIGH_ASSURANCE_DIGITAL_INFRASTRUCTURE",
-      "DEPLOYED_MASTHEAD_STILL_HIGH_ASSURANCE_DIGITAL_INFRASTRUCTURE",
-      "DEPLOYED_HERO_STILL_HIGH_ASSURANCE_DIGITAL_INFRASTRUCTURE",
-      "DEPLOYED_BODY_LACKS_DATA_PROFILE_CURRENTNESS_2026_08_14",
-      "DEPLOYED_BODY_LACKS_2026_08_14_CURRENT_PUBLIC_SECTOR_ACTIVITY_BLOCK",
-      "DEPLOYED_RESPONSE_LAST_MODIFIED_2026_08_13"
+    "source_currentness": "OBSERVED_CONTENT_CONVERGED_2026_08_14",
+    "currentness_evidence": [
+      "DEPLOYED_TITLE_HIGH_ASSURANCE_CRITICAL_INFRASTRUCTURE",
+      "DEPLOYED_MASTHEAD_HIGH_ASSURANCE_CRITICAL_INFRASTRUCTURE",
+      "DEPLOYED_BODY_HAS_DATA_PROFILE_CURRENTNESS_2026_08_14",
+      "DEPLOYED_BODY_HAS_2026_08_14_CURRENT_PUBLIC_SECTOR_ACTIVITY_BLOCK",
+      "DEPLOYED_RESPONSE_LAST_MODIFIED_2026_08_14"
     ],
-    "required_positioning": "High-Assurance Critical Infrastructure",
-    "current_connector_target_specific_deploy": "UNAVAILABLE",
-    "remediation": "TARGET_EXACT_PROJECT_AND_CANONICAL_SOURCE_WITH_VERCEL_DEPLOYMENT_API_OR_EQUIVALENT_TARGET_SPECIFIC_ROUTE_THEN_READ_BACK_PRODUCTION_ALIAS",
+    "runtime_errors_7d": "NONE_OBSERVED",
+    "exact_deployment_git_binding": "UNOBSERVED",
+    "supersedes_prior_state": "OBSERVED_STALE_SOURCE_PROJECTION",
     "authority": "NONE",
     "visual_render_after_r3_repair": "UNOBSERVED"
   },
@@ -61,7 +61,7 @@
     "mist": "OPPORTUNITY_DEVELOPMENT"
   },
   "current_patent_filing_state": "NONE",
-  "currentness_cutoff": "2026-08-14",
+  "currentness_cutoff": "2026-08-14T11:46:31-06:00",
   "supersedes_as_publication_carrier": "sovereignintegritysystems/sovereign-engines:docs/PUBLIC_GITHUB_PROFILE_README.md",
   "claim_ceiling": "PUBLICATION_PROJECTION_ONLY"
 }
