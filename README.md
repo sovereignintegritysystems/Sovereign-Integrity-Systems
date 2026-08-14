@@ -1,6 +1,6 @@
 # Sovereign Integrity Systems
 
-**High-Assurance Digital Infrastructure**  
+**High-Assurance Critical Infrastructure**  
 Saskatchewan, Canada
 
 This repository is the canonical **PUBLIC_SAFE GitHub front door and publication projection** for Sovereign Integrity Systems (SIS). It is a provider projection with authority `NONE`; company, legal, financial, technical, research and evidence truth remains governed by its exact authoritative source.
@@ -94,4 +94,4 @@ No patent applications are represented here as filed. Internal invention and pat
 ---
 
 **Sovereign Integrity Systems**  
-*High-Assurance Digital Infrastructure*
+*High-Assurance Critical Infrastructure*
