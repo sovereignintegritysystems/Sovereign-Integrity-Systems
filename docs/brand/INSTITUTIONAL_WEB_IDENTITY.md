@@ -12,7 +12,7 @@ The SIS public website is an institutional front door and public profile, not a 
 ## Identity hierarchy
 
 1. **Sovereign Integrity Systems** is the primary institutional identity.
-2. **High-Assurance Digital Infrastructure** is the subordinate positioning line.
+2. **High-Assurance Critical Infrastructure** is the subordinate positioning line.
 3. **Sovereign Engines** is the principal platform family beneath the institution.
 4. Programmes, research lanes, engineering lanes and future products remain subordinate to the institution layer.
 
