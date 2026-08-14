@@ -2,7 +2,7 @@
 
 This page is a public-safe map of current research and engineering activity. It establishes institutional scope; it is not a release of unpublished enabling inventions and does not claim experimental effectiveness, certification, patentability or freedom to operate.
 
-## High-assurance digital infrastructure
+## High-assurance critical infrastructure
 
 SIS researches and develops systems intended for environments where correctness, provenance, continuity, bounded authority and reconstructable evidence matter. Current public-safe areas include high-assurance Rust, deterministic/bounded execution, cryptography and post-quantum migration, DDIL/offline operation, formal/adversarial assurance, evidence semantics, scientific provenance and standards/applicability research.
 
