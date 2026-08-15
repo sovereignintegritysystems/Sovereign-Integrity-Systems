@@ -1,6 +1,7 @@
 # Sovereign Integrity Systems
 
 **High-Assurance Critical Infrastructure**  
+**Materials Science · Memory-Safe Systems Engineering · Post-Quantum Cryptography · Mission-Critical Deployments**  
 Saskatchewan, Canada
 
 This repository is the canonical **PUBLIC_SAFE GitHub front door and publication projection** for Sovereign Integrity Systems (SIS). It is a provider projection with authority `NONE`; company, legal, financial, technical, research and evidence truth remains governed by its exact authoritative source.
@@ -109,4 +110,5 @@ See [`LEGACY_WEB_CURRENTNESS.md`](LEGACY_WEB_CURRENTNESS.md) for the explicit cl
 ---
 
 **Sovereign Integrity Systems**  
-*High-Assurance Critical Infrastructure*
+*High-Assurance Critical Infrastructure*  
+*Materials Science · Memory-Safe Systems Engineering · Post-Quantum Cryptography · Mission-Critical Deployments*
