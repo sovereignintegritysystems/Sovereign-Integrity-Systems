@@ -6,7 +6,7 @@
 
 Sovereign Integrity Systems (SIS) is a Saskatchewan-rooted Canadian research and engineering venture developing high-assurance technology and the institutional capability needed to understand, verify, operate and sustain it.
 
-SIS is broader than a single software product. Its work connects computing, cryptography, artificial intelligence, critical infrastructure, embedded and edge systems, physical science, materials research, scientific measurement, evidence and assurance, research management, commercialization, strategic intelligence, partnerships, governance, institutional learning and long-term continuity.
+SIS is broader than a single software product. Its work connects computing, cryptography, artificial intelligence, critical infrastructure, embedded and edge systems, physical science, materials research, scientific measurement, evidence and assurance, research management, commercialization, strategic intelligence, partnerships, governance, institutional learning and long-term continuity. The full interconnected SIS institutional ecosystem and the governed interfaces through which those parts interact are referred to as the **Sovereign Estate**. The term describes SIS's own ecosystem; it does not imply ownership or authority over external organizations represented in SIS research or intelligence systems.
 
 The central objective is straightforward: important systems should be understandable, reconstructable and supportable from trustworthy evidence rather than depending entirely on undocumented assumptions, one vendor, one cloud service or one individual’s memory.
 
@@ -32,7 +32,7 @@ SIS develops systems for provenance, reproducibility, verification, evidence cus
 
 ## Physical science and materials
 
-The estate extends beyond software into physical research. Public-safe work includes materials characterization, spectroscopy and analytical measurement, interfaces and coatings, thermal and fire behaviour, physical sensing, vibroacoustics, structural dynamics, metrology, wildfire and harsh-environment research, model-based engineering and cross-institution reproducibility.
+The Sovereign Estate extends beyond software into physical research. Public-safe work includes materials characterization, spectroscopy and analytical measurement, interfaces and coatings, thermal and fire behaviour, physical sensing, vibroacoustics, structural dynamics, metrology, wildfire and harsh-environment research, model-based engineering and cross-institution reproducibility.
 
 These are research domains and measurement programmes. A hypothesis, supplier specification or preliminary observation is not represented as proven product performance or field effectiveness.
 
@@ -48,9 +48,11 @@ ANNA is designed to resolve relevant current sources and explain them at an appr
 
 ## The Worldbook and strategic ecosystem intelligence
 
-SIS maintains a structured **Worldbook** and relationship-atlas capability for understanding the external ecosystem around its work. This includes companies, Crown corporations, governments, Indigenous and Métis institutions, universities and faculties, laboratories, utilities, suppliers, manufacturers, transportation and logistics organizations, research centres, standards bodies, regulators, funders, procurement channels, economic-development organizations and other relevant institutions.
+SIS maintains the **Sovereign Worldbook**, usually called the **Worldbook**: an evidence-bounded institutional world model and decision-intelligence system for understanding the external ecosystem around SIS. It connects source-supported information about organizations, roles, facilities, projects, technologies, economics, requirements, standards, relationships, events and constraints while keeping provenance, time, evidence class, currentness, conflicting evidence and authority boundaries explicit.
 
-The purpose is not simply to collect contacts. The system asks why an entity matters, what capability or dependency exists, what evidence supports the relationship, what opportunities or risks may follow and which SIS function should receive the finding. Indexing an organization does not create a partnership, endorsement, customer relationship or commercial opportunity.
+Its purpose is not simply to collect contacts or produce a larger database. The Worldbook asks what is actually known, what remains uncertain, which alternative explanations or routes remain plausible, what evidence would most cheaply falsify an idea, what should be learned next and which SIS function owns any resulting consequence. It is designed to distinguish strategic fit from observed demand, correlation from causality, and indexing from a real relationship. Indexing an organization therefore does not create a partnership, endorsement, customer relationship, commercial opportunity or authority over that organization.
+
+The Worldbook is one governed institutional model with multiple controlled views. Human reports, APIs, product options and ANNA views are derived interfaces rather than independent truth systems.
 
 ## Commercialization, procurement and relationships
 
@@ -66,9 +68,11 @@ Around the technical work, SIS is building company-level operating systems for s
 
 SIS is currently **pre-incorporation and pre-revenue**. Plans, internal records or draft structures do not create legal incorporation, issued securities, signing authority, bank balances, tax registrations, contracts, insurance, certifications or other external states without the required documentary evidence.
 
-## Automation and currentness
+## Automation, recursive hardening and currentness
 
-The Sovereign estate is designed to become increasingly **self-maintaining without becoming self-authorizing**. Material changes can be captured, routed and reconciled through machine-readable controls, source bindings, change-integrity rules, semantic propagation, stale-reference detection and event-driven currentness mechanisms.
+The Sovereign Estate is designed to become increasingly **self-maintaining without becoming self-authorizing**. Material changes can be captured, routed and reconciled through machine-readable controls, source bindings, change-integrity rules, semantic propagation, stale-reference detection and event-driven currentness mechanisms.
+
+For material definitions, architectures and institutional mechanisms, SIS also uses a formal recursive hardening discipline referred to internally as **RCHL-10**. It combines a source-and-claim baseline with repeated SRAIDM analysis, red-team challenge, remediation and dogfooding across ten complementary attack lenses. A round is allowed to conclude that no new material change is warranted; the method is intended to converge rather than generate process for its own sake. Internal hardening does not substitute for independent, physical, legal, regulatory, customer or market evidence where those are required.
 
 This is deliberately stronger than relying on a periodic scheduler. Normal work and normal use produce the events that drive currentness; the system can reconstruct from durable sources and propagate material meaning to affected consumers. Periodic health and currency reviews are backstops that look for missed propagation or stale projections rather than the mechanism that creates truth.
 
@@ -76,7 +80,7 @@ Automated systems may research, reconcile, draft, route, update and identify exc
 
 ## Institutional memory and provider independence
 
-Google Drive and GitHub serve complementary roles in the current estate. Drive primarily carries durable human-readable institutional memory, research, registries, evidence and governance. GitHub primarily carries executable source, tests and machine-readable implementation and control artifacts.
+Google Drive and GitHub serve complementary roles in the current Sovereign Estate. Drive primarily carries durable human-readable institutional memory, research, registries, evidence and governance. GitHub primarily carries executable source, tests and machine-readable implementation and control artifacts.
 
 Neither provider is treated as authoritative merely because a file, API operation or deployment exists. The longer-term objective is to preserve first-party knowledge, evidence and reconstruction paths so important capability remains governable and recoverable in Canada even when external services change.
 
@@ -92,11 +96,11 @@ SIS is being designed with continuity and succession in mind rather than assumin
 
 The broader aim is to make technical capability, institutional knowledge and economic value durable enough to survive leadership transitions and to support useful Canadian, Métis and community capacity over the long term.
 
-## How the estate fits together
+## How the Sovereign Estate fits together
 
 A research paper can become an R&D lead. A research result can create an experiment. Physical evidence can change an engineering design. Engineering can create a product option. Strategic intelligence can identify the laboratory, supplier, partner, customer or funding route needed next. Legal and IP controls can protect what SIS owns. Finance can test affordability. Commercial systems can test whether a real market need exists. Assurance can bound what may truthfully be claimed. ANNA can explain the result. Currentness systems can propagate the change. Institutional memory can preserve why the decision was made. Governance can determine what happens next.
 
-That is the broader idea behind Sovereign Integrity Systems: **a connected Canadian capability estate in which research, engineering, evidence, physical science, knowledge, relationships, commercialization and governance are designed to reinforce one another rather than operate as isolated silos.**
+That is the broader idea behind Sovereign Integrity Systems: **a connected Canadian Sovereign Estate in which research, engineering, evidence, physical science, knowledge, relationships, commercialization and governance are designed to reinforce one another rather than operate as isolated silos.**
 
 ## Public claim boundary
 
