@@ -7,7 +7,14 @@
   "canonical_role": "PUBLIC_COMPANY_PUBLICATION_PROJECTION",
   "authority": "NONE",
   "purpose": "Canonical public GitHub front door and publication projection for Sovereign Integrity Systems public-safe material.",
+  "canonical_brand_formulation": {
+    "company_name": "Sovereign Integrity Systems",
+    "primary_tagline": "High-Assurance Critical Infrastructure",
+    "secondary_tagline": "Materials Science · Memory-Safe Systems Engineering · Post-Quantum Cryptography · Mission-Critical Deployments",
+    "effective_date": "2026-08-15"
+  },
   "canonical_positioning": "High-Assurance Critical Infrastructure",
+  "canonical_secondary_positioning": "Materials Science · Memory-Safe Systems Engineering · Post-Quantum Cryptography · Mission-Critical Deployments",
   "superseded_positioning": "High-Assurance Digital Infrastructure",
   "source_authorities": {
     "company_truth": "Sovereign Integrity Systems Executive Institutional Operating System / Operating Register",
@@ -20,6 +27,7 @@
   "forbidden_inference": [
     "public_repository_presence_does_not_create_company_truth_authority",
     "publication_does_not_upgrade_evidence_or_certification_state",
+    "mission_critical_deployments_brand_language_does_not_establish_a_specific_customer_field_or_production_deployment",
     "account_ownership_does_not_establish_provenance_for_other_repositories",
     "public_content_does_not_imply_patent_filing_or_patent_pending",
     "github_actions_state_does_not_create_or_block_publication_evidence_currentness_or_release",
@@ -38,8 +46,9 @@
     "provider": "VERCEL",
     "project_id": "prj_ZOtRoAc1FL2tdjvEanTlrlpLqFTd",
     "production_alias": "https://sovereign-integrity-systems.vercel.app/",
-    "canonical_public_source_commit_observed": "e81ce4ea005b899c59a9833454c40253af9f8b14",
-    "canonical_index_blob_observed": "39dfc5eb186abce0b93af18cd04e24ed90844486",
+    "canonical_public_source_commit_observed": "547ff8fbe02463f58246aca5fe2a1518f685b989",
+    "canonical_index_blob_observed": "2d12d72320e0e2647407daebe3c89de72a520daa",
+    "brand_source_state": "SOURCE_UPDATED_2026_08_15_DEPLOYMENT_READBACK_PENDING",
     "publication_navigation_source_commit": "16b0266ee2e8cc01fff11668fb47c34a82b7f851",
     "source_publication_navigation": "ESTABLISHED",
     "source_navigation_targets": [
@@ -51,7 +60,7 @@
     "last_observed_production_deployment_created_at": "2026-08-14T16:45:46.020-06:00",
     "deployment_health": "READY_HTTP_200",
     "publication_navigation_live_deployment_state": "OBSERVED_LIVE_READBACK",
-    "production_content_currentness": "OBSERVED_CONTENT_CONVERGED_2026_08_14",
+    "production_content_currentness": "OBSERVED_CONTENT_CONVERGED_2026_08_14_BRAND_UPDATE_PENDING_DEPLOYMENT_READBACK",
     "live_readback_evidence": [
       "DATA_PROFILE_CURRENTNESS_2026_08_14",
       "HIGH_ASSURANCE_CRITICAL_INFRASTRUCTURE_POSITIONING",
@@ -61,11 +70,15 @@
       "INDEPENDENT_REVIEW_LINK",
       "CURRENT_PUBLIC_SECTOR_ACTIVITY_BLOCK"
     ],
+    "pending_live_readback_evidence": [
+      "DATA_PROFILE_CURRENTNESS_2026_08_15",
+      "MISSION_CRITICAL_DEPLOYMENTS_SECONDARY_LINE"
+    ],
     "runtime_error_query": "NO_ERROR_OR_FATAL_LOGS_OBSERVED_IN_1H_QUERY",
-    "runtime_error_retention_note": "SEVEN_DAY_QUERY_WAS_NOT_EVIDENTIARY_BECAUSE_PROVIDER_REPORTED_RETENTION_LIMIT; ONE_HOUR_QUERY_USED_FOR_CURRENT OBSERVATION",
+    "runtime_error_retention_note": "SEVEN_DAY_QUERY_WAS_NOT_EVIDENTIARY_BECAUSE_PROVIDER_REPORTED RETENTION LIMIT; ONE_HOUR QUERY USED FOR CURRENT OBSERVATION",
     "exact_deployment_git_binding": "UNOBSERVED",
     "authority": "NONE",
-    "visual_render_after_publication_navigation_change": "UNOBSERVED"
+    "visual_render_after_brand_update": "UNOBSERVED"
   },
   "current_public_activity": {
     "dnd_ideas_cfp006": "TWO_PROPOSALS_SUBMITTED_JULY_2026_NO_AWARD_CLAIM",
@@ -73,7 +86,7 @@
     "mist": "OPPORTUNITY_DEVELOPMENT"
   },
   "current_patent_filing_state": "NONE",
-  "currentness_cutoff": "2026-08-14T20:03:00-06:00",
+  "currentness_cutoff": "2026-08-15",
   "supersedes_as_publication_carrier": "sovereignintegritysystems/sovereign-engines:docs/PUBLIC_GITHUB_PROFILE_README.md",
   "claim_ceiling": "PUBLICATION_PROJECTION_ONLY"
 }
