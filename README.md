@@ -24,7 +24,9 @@ Sovereign Integrity Systems develops evidence-governed, sovereignty-oriented dig
 
 **Sovereign Engines** is the principal technology and platform family beneath the company identity. Public-safe work includes high-assurance Rust systems; cryptography and post-quantum migration; deterministic and bounded execution; formal and adversarial assurance; DDIL/offline continuity; evidence, provenance and authority semantics; scientific measurement; physical-world research; and provider-independent reconstruction.
 
-Start with [`PUBLIC_ESTATE_OVERVIEW.md`](PUBLIC_ESTATE_OVERVIEW.md) for the broad public-safe description of the whole Sovereign estate. [`INSTITUTIONAL_PROFILE.md`](INSTITUTIONAL_PROFILE.md) is the supporting detailed company/identity profile, and [`RESEARCH_AND_ENGINEERING.md`](RESEARCH_AND_ENGINEERING.md) is the bounded research and engineering surface. These are publication projections with authority `NONE`; the whole-estate overview may narrow source truth but may never strengthen it.
+The full interconnected SIS institutional ecosystem and its governed interfaces are referred to as the **Sovereign Estate**. External institutions represented in SIS research or strategic intelligence remain external; the term does not imply ownership or authority over them.
+
+Start with [`PUBLIC_ESTATE_OVERVIEW.md`](PUBLIC_ESTATE_OVERVIEW.md) for the broad public-safe description of the Sovereign Estate, including the Sovereign Worldbook and SIS's recursive hardening/currentness discipline. [`INSTITUTIONAL_PROFILE.md`](INSTITUTIONAL_PROFILE.md) is the supporting detailed company/identity profile, and [`RESEARCH_AND_ENGINEERING.md`](RESEARCH_AND_ENGINEERING.md) is the bounded research and engineering surface. These are publication projections with authority `NONE`; the whole-estate overview may narrow source truth but may never strengthen it.
 
 ## Founding purpose and sovereignty
 
