@@ -1,5 +1,9 @@
 # Sovereign Integrity Systems — Public-Safe Estate Overview
 
+**Sovereign Integrity Systems**  
+**High-Assurance Critical Infrastructure**  
+**Materials Science · Memory-Safe Systems Engineering · Post-Quantum Cryptography · Mission-Critical Deployments**
+
 Sovereign Integrity Systems (SIS) is a Saskatchewan-rooted Canadian research and engineering venture developing high-assurance technology and the institutional capability needed to understand, verify, operate and sustain it.
 
 SIS is broader than a single software product. Its work connects computing, cryptography, artificial intelligence, critical infrastructure, embedded and edge systems, physical science, materials research, scientific measurement, evidence and assurance, research management, commercialization, strategic intelligence, partnerships, governance, institutional learning and long-term continuity.
