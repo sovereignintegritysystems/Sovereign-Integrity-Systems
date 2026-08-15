@@ -1,5 +1,9 @@
 # Sovereign Integrity Systems — Institutional Profile
 
+**Sovereign Integrity Systems**  
+**High-Assurance Critical Infrastructure**  
+**Materials Science · Memory-Safe Systems Engineering · Post-Quantum Cryptography · Mission-Critical Deployments**
+
 > **Whole-estate public overview:** [`PUBLIC_ESTATE_OVERVIEW.md`](PUBLIC_ESTATE_OVERVIEW.md). This file is the supporting detailed public identity and operating profile, not a second whole-estate narrative authority. It is a PUBLIC_SAFE projection with authority `NONE`.
 
 ## Identity and maturity
