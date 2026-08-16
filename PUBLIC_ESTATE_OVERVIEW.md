@@ -10,6 +10,16 @@ SIS is broader than a single software product. Its work connects computing, cryp
 
 The central objective is straightforward: important systems should be understandable, reconstructable and supportable from trustworthy evidence rather than depending entirely on undocumented assumptions, one vendor, one cloud service or one individual’s memory.
 
+## Portfolio breadth and focused external interfaces
+
+SIS is deliberately broader than any one product, customer programme or investment thesis. Its operating model is to build shared high-assurance research, engineering, evidence and automation infrastructure that can support multiple technical and commercialization fronts without treating every front as an unrelated company.
+
+A specific customer, research partner, accelerator or investor may therefore encounter a focused part of SIS without that part becoming the definition or limit of the institution. SIS can focus an experiment, pilot, application, demonstration, diligence package or investment discussion around one clear problem while other research and engineering continue independently.
+
+External feedback is used to test market assumptions, improve communication and identify real constraints. It does not by itself determine the scope of the wider institution. When breadth creates a genuine coordination or explanation burden, SIS's preferred response is to improve reusable infrastructure, automation, common technical primitives, evidence packaging and execution capacity before discarding useful work. Individual product hypotheses remain evidence-driven and may be narrowed or discontinued when their own evidence warrants it.
+
+This is not a claim that every SIS research front is commercially validated or equally mature. Customer demand, traction, revenue, investment interest, independent validation and production readiness remain separate evidence states for each exact subject.
+
 ## Sovereign Engines
 
 **Sovereign Engines** is the principal technology platform beneath SIS. It is being developed for consequential environments where security, correctness, bounded resources, continuity and evidence matter. Current public-safe research and engineering includes high-assurance Rust, cryptography and post-quantum migration, deterministic and bounded execution, embedded and offline operation, evidence and provenance, formal and adversarial assurance, resilient recovery and provider-independent reconstruction.
