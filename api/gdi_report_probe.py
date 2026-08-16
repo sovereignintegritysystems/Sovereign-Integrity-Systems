@@ -65,9 +65,20 @@ class handler(BaseHTTPRequestHandler):
         self.end_headers()
         self.wfile.write(body)
 
+    def _raw_pdf(self, data: bytes, *, doc_id: str, digest: str) -> None:
+        self.send_response(200)
+        self.send_header("Content-Type", "application/pdf")
+        self.send_header("Content-Length", str(len(data)))
+        self.send_header("Content-Disposition", f'attachment; filename="{doc_id}.pdf"')
+        self.send_header("Cache-Control", "no-store")
+        self.send_header("X-Robots-Tag", "noindex")
+        self.send_header("X-SIS-Source-SHA256", digest)
+        self.end_headers()
+        self.wfile.write(data)
+
     def do_GET(self) -> None:
         parsed = urlparse(self.path)
-        if parsed.path.rstrip("/") != "/api/gdi_report_probe":
+        if parsed.path.rstrip("/") not in {"", "/", "/api/gdi_report_probe"}:
             self._json(404, {"status": "REJECTED", "reason": "NOT_FOUND"})
             return
         qs = parse_qs(parsed.query, keep_blank_values=False)
@@ -76,12 +87,15 @@ class handler(BaseHTTPRequestHandler):
         if doc_id not in DOCS:
             self._json(400, {"status": "REJECTED", "reason": "UNKNOWN_DOCUMENT", "documents": sorted(DOCS)})
             return
-        if mode not in {"meta", "page", "search"}:
+        if mode not in {"meta", "page", "search", "raw"}:
             self._json(400, {"status": "REJECTED", "reason": "UNKNOWN_MODE"})
             return
         try:
             data, content_type, final_url = _fetch(doc_id)
             digest = hashlib.sha256(data).hexdigest()
+            if mode == "raw":
+                self._raw_pdf(data, doc_id=doc_id, digest=digest)
+                return
             reader = PdfReader(BytesIO(data))
             base = {
                 "status": "PASS",
