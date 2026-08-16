@@ -37,10 +37,14 @@
   ],
   "private_to_public_sync": "NO_AUTOMATIC_SYNC",
   "github_actions": {
-    "state": "EXCLUDED_NONCANONICAL_NOT_PART_OF_SIS_SYSTEM",
+    "state": "EXCLUDED_FROM_ALL_ACTIVE_SIS_PATHS",
     "required": false,
     "status_consumed": false,
-    "outside_funding_auto_readmits": false
+    "workflow_files_allowed": false,
+    "active_workflow_files_observed": 0,
+    "workflow_directory_observation": "ABSENT_AT_2026_08_15_CUTOFF",
+    "provider_billing_or_funding_auto_readmits": false,
+    "semantic_owner": "sovereignintegritysystems/sovereign-engines:control-plane/github_actions_exclusion.v1.json"
   },
   "public_web_projection": {
     "provider": "VERCEL",
