@@ -20,6 +20,14 @@ External feedback is used to test market assumptions, improve communication and 
 
 This is not a claim that every SIS research front is commercially validated or equally mature. Customer demand, traction, revenue, investment interest, independent validation and production readiness remain separate evidence states for each exact subject.
 
+## Machine-first institutional scaling
+
+As the Sovereign Estate grows, SIS treats recurring coordination, currentness, manual-work and evidence bottlenecks as candidates for reusable automation and stronger shared institutional machinery. Increasing breadth is not, by itself, a reason to stop useful research or reduce the company to one product. The preferred response to genuine coordination cost is to improve shared infrastructure, automation, common technical primitives, evidence packaging, currentness, execution capacity and interfaces so more useful work can be handled coherently.
+
+The same principle applies to commercialization. Strategic intelligence, research and engineering can be translated into focused decision-ready customer, partner, procurement or research interfaces while the wider institution continues to operate. Each exact product or market hypothesis remains falsifiable and evidence-driven; an external interface can be narrow without redefining the scope of SIS.
+
+Automation remains bounded by evidence and authority. Machines may research, reconcile, route, prepare, measure and identify exceptions, but they do not create customer demand, revenue, certification, legal authority, external commitments or physical effectiveness. Consequential effects remain subject to the appropriate human, legal, contractual, disclosure and evidence controls.
+
 ## Sovereign Engines
 
 **Sovereign Engines** is the principal technology platform beneath SIS. It is being developed for consequential environments where security, correctness, bounded resources, continuity and evidence matter. Current public-safe research and engineering includes high-assurance Rust, cryptography and post-quantum migration, deterministic and bounded execution, embedded and offline operation, evidence and provenance, formal and adversarial assurance, resilient recovery and provider-independent reconstruction.

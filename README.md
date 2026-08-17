@@ -28,6 +28,14 @@ The full interconnected SIS institutional ecosystem and its governed interfaces 
 
 Start with [`PUBLIC_ESTATE_OVERVIEW.md`](PUBLIC_ESTATE_OVERVIEW.md) for the broad public-safe description of the Sovereign Estate, including the Sovereign Worldbook and SIS's recursive hardening/currentness discipline. [`INSTITUTIONAL_PROFILE.md`](INSTITUTIONAL_PROFILE.md) is the supporting detailed company/identity profile, and [`RESEARCH_AND_ENGINEERING.md`](RESEARCH_AND_ENGINEERING.md) is the bounded research and engineering surface. These are publication projections with authority `NONE`; the whole-estate overview may narrow source truth but may never strengthen it.
 
+## Machine-first institutional scaling
+
+As the Sovereign Estate grows, SIS treats recurring coordination, currentness, manual-work and evidence bottlenecks as candidates for **reusable automation and stronger shared institutional machinery**. Increasing breadth is not, by itself, a reason to stop useful research or reduce the company to one product. The preferred response to genuine coordination cost is to improve shared infrastructure, automation, common technical primitives, evidence packaging, currentness, execution capacity and interfaces so more useful work can be handled coherently.
+
+The same principle applies to commercialization. Strategic intelligence, research and engineering can be translated into focused customer, partner, procurement or research interfaces while the wider institution continues to operate. Each exact product or market hypothesis remains falsifiable and evidence-driven; a focused external interface can be narrow without redefining the scope of SIS.
+
+Automation remains bounded by evidence and authority. Machines may research, reconcile, route, prepare, measure and identify exceptions, but they do not create customer demand, revenue, certification, legal authority, external commitments or physical effectiveness. Consequential effects remain subject to the appropriate human, legal, contractual, disclosure and evidence controls.
+
 ## Founding purpose and sovereignty
 
 SIS is being built as a **Métis-founded, founder-led, Saskatchewan-rooted Canadian institution**. Its sovereignty objective is practical: increase Canada's capacity to originate, understand, operate, verify, repair and evolve consequential capabilities from first-party knowledge and source without making a foreign vendor, cloud, repository, proprietary platform or external provider the source of authority for core capability.
