@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://sovereign-integrity-systems.vercel.app/sitemap.xml
