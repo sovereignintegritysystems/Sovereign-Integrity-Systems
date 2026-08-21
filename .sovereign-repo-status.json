@@ -33,7 +33,8 @@
     "github_actions_state_does_not_create_or_block_publication_evidence_currentness_or_release",
     "vercel_http_200_or_ready_does_not_by_itself_establish_source_currentness",
     "content_convergence_does_not_establish_exact_deployment_to_git_binding_or_real_browser_visual_correctness",
-    "source_navigation_update_does_not_establish_production_deployment"
+    "source_navigation_update_does_not_establish_production_deployment",
+    "google_drive_pdf_custody_does_not_by_itself_establish_anonymous_public_sharing"
   ],
   "private_to_public_sync": "NO_AUTOMATIC_SYNC",
   "github_actions": {
@@ -79,10 +80,30 @@
       "MISSION_CRITICAL_DEPLOYMENTS_SECONDARY_LINE"
     ],
     "runtime_error_query": "NO_ERROR_OR_FATAL_LOGS_OBSERVED_IN_1H_QUERY",
-    "runtime_error_retention_note": "SEVEN_DAY_QUERY_WAS_NOT_EVIDENTIARY_BECAUSE_PROVIDER_REPORTED RETENTION LIMIT; ONE_HOUR QUERY USED FOR CURRENT OBSERVATION",
+    "runtime_error_retention_note": "SEVEN_DAY_QUERY_WAS_NOT_EVIDENTIARY_BECAUSE_PROVIDER_REPORTED RETENTION LIMIT; ONE_HOUR_QUERY_USED_FOR_CURRENT_OBSERVATION",
     "exact_deployment_git_binding": "UNOBSERVED",
     "authority": "NONE",
     "visual_render_after_brand_update": "UNOBSERVED"
+  },
+  "current_publication": {
+    "publication_id": "SIS-ESTATE-STATUS-20260821-PUBLIC-R1",
+    "title": "Sovereign Integrity Systems — Status of the Sovereign Estate — Public Edition — 21 August 2026",
+    "classification": "PUBLIC_SAFE",
+    "release_state": "RELEASED",
+    "release_date": "2026-08-21",
+    "public_text_path": "docs/publications/STATUS_OF_THE_SOVEREIGN_ESTATE_2026_08_PUBLIC.md",
+    "public_text_blob_sha": "c7757e4c9b824ab0ccf9a4a1997ee4bd79199f07",
+    "publication_merge_commit": "467273734fda77b8aa7454cc0f3656f4c68c6975",
+    "canonical_pdf_custody": {
+      "provider": "GOOGLE_DRIVE",
+      "file_id": "1NNYadKd_BF1ZAl2TZb-tpbxPKvzc0m8Z",
+      "sha256": "c93858d09ff66b242a376457a2ef5320aa0fd0434e158ebdfb97c67e2ca9132f",
+      "byte_identical_readback": true,
+      "anonymous_public_sharing": "UNOBSERVED"
+    },
+    "internal_pdf_public_safe_as_is": false,
+    "claim_rule": "PUBLIC_PROJECTION_MAY_NARROW_BUT_MAY_NOT_STRENGTHEN_EXACT_OWNER_OR_INTERNAL_CLAIMS",
+    "authority": "NONE"
   },
   "current_public_activity": {
     "dnd_ideas_cfp006": "TWO_PROPOSALS_SUBMITTED_JULY_2026_NO_AWARD_CLAIM",
@@ -91,6 +112,7 @@
   },
   "current_patent_filing_state": "NONE",
   "currentness_cutoff": "2026-08-15",
+  "publication_currentness_cutoff": "2026-08-21",
   "supersedes_as_publication_carrier": "sovereignintegritysystems/sovereign-engines:docs/PUBLIC_GITHUB_PROFILE_README.md",
   "claim_ceiling": "PUBLICATION_PROJECTION_ONLY"
 }
