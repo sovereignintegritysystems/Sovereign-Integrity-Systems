@@ -99,7 +99,8 @@
       "file_id": "1NNYadKd_BF1ZAl2TZb-tpbxPKvzc0m8Z",
       "sha256": "c93858d09ff66b242a376457a2ef5320aa0fd0434e158ebdfb97c67e2ca9132f",
       "byte_identical_readback": true,
-      "anonymous_public_sharing": "UNOBSERVED"
+      "drive_shared": false,
+      "anonymous_public_sharing": "OBSERVED_NOT_SHARED"
     },
     "internal_pdf_public_safe_as_is": false,
     "claim_rule": "PUBLIC_PROJECTION_MAY_NARROW_BUT_MAY_NOT_STRENGTHEN_EXACT_OWNER_OR_INTERNAL_CLAIMS",
